@@ -64,13 +64,13 @@
 
                 <ul class="space-y-2">
                     <li>
-                        <a href="#">Testimonial</a>
+                        <button class="cursor-pointer" onclick="under_construction.showModal()">Testimonial</button>
                     </li>
                     <li>
-                        <a href="#">FAQ</a>
+                        <button class="cursor-pointer" onclick="under_construction.showModal()">FAQ</button>
                     </li>
                     <li>
-                        <a href="#">Privacy Policy</a>
+                        <button class="cursor-pointer" onclick="under_construction.showModal()">Privacy Policy</button>
                     </li>
                 </ul>
             </div>
@@ -83,18 +83,21 @@
                     <li class="space-y-1">
                         <div class="text-medium">Address: </div>
                         <div class="max-w-sm">
-                            S.F No: 297, Tirumala Nagar, Mettupalayam Rd,  Thoppampatti Pirivu, K. Vadamadurai, 
-                            Narasimhanaickenpalayam,  Coimbatore, Tamil Nadu  641031
+                            S.F No: 297, Tirumala Nagar, Mettupalayam Rd, Thoppampatti Pirivu, K. Vadamadurai,
+                            Narasimhanaickenpalayam, Coimbatore, Tamil Nadu 641031
                         </div>
                     </li>
                     <li class="space-y-1">
                         <div class="text-medium">Phone: </div>
-                        <div>+123 (4567) - 890</div>
+                        <div><a href="tel:04223510917">0422 3510917</a></div>
+                        <div><a href="tel:+919952964718">+91 9952964718</a></div>
                     </li>
                     <li class="space-y-1">
                         <div class="text-medium">Email: </div>
-                        <div>example@gmail.com</div>
+                        <div><a href="mailto:ehcchospital2024@gmail.com"
+                               >ehcchospital2024@gmail.com</a></div>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -104,8 +107,41 @@
 
 
 
-    <civ class="text-sm">&copy; <?php echo date("Y"); ?> Emerald Health Care - All Rights Reserved</civ>
+    <div class="text-sm">&copy; <?php echo date("Y"); ?> Emerald Health Care - All Rights Reserved</div>
 </footer>
+
+
+<dialog id="under_construction" class="modal">
+    <div class="modal-box p-16 bg-white">
+        <form method="dialog">
+            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+        <div class="text-center flex flex-col gap-5 justify-center items-center">
+            <img class="h-20" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/under-construction.png" alt="">
+            <h3 class="text-lg font-semibold text-black">Under Construction</h3>
+        </div>
+
+
+    </div>
+</dialog>
+
+
+
+<script>
+const modal = document.getElementById('under_construction');
+
+// Close the modal when clicking outside the modal content
+modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.close();
+    }
+});
+
+// Open the modal for demonstration (optional)
+document.getElementById('openModalButton').addEventListener('click', () => {
+    modal.showModal();
+});
+</script>
 
 <?php wp_footer(); ?>
 </body>

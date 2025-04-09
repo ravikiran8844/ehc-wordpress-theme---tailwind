@@ -126,6 +126,7 @@
 </dialog>
 
 
+<script src="https://unpkg.com/alpinejs" defer></script>
 
 <script>
 const modal = document.getElementById('under_construction');

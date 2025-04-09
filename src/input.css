@@ -27,7 +27,9 @@
   }
 
 
-
+  [x-cloak]{
+    display: none;
+  }
   
 
   .swiper-button-prev:after,

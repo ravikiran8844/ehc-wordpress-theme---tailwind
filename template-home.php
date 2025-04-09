@@ -106,28 +106,28 @@ get_header(); ?>
             <div class="grid lg:grid-cols-2 gap-10">
                 <div>
                     <?php if ($section2_image): ?>
-                        <img loading="lazy" class="w-full h-auto rounded-md"
-                            src="<?php echo esc_url($section2_image['url']); ?>"
-                            alt="<?php echo esc_attr($section2_image['alt']); ?>">
+                    <img loading="lazy" class="w-full h-auto rounded-md"
+                        src="<?php echo esc_url($section2_image['url']); ?>"
+                        alt="<?php echo esc_attr($section2_image['alt']); ?>">
                     <?php endif; ?>
                 </div>
 
                 <div class="space-y-4 m-auto">
                     <?php if ($section2_label): ?>
-                        <div
-                            class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
-                            <?php echo esc_html($section2_label); ?>
-                        </div>
+                    <div
+                        class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
+                        <?php echo esc_html($section2_label); ?>
+                    </div>
                     <?php endif; ?>
 
                     <?php if ($section2_title): ?>
-                        <div class="text-2xl md:text-3xl font-bold text-black">
-                            <?php echo esc_html($section2_title); ?>
-                        </div>
+                    <div class="text-2xl md:text-3xl font-bold text-black">
+                        <?php echo esc_html($section2_title); ?>
+                    </div>
                     <?php endif; ?>
 
                     <?php if ($section2_description): ?>
-                        <div><?php echo esc_html($section2_description); ?></div>
+                    <div><?php echo esc_html($section2_description); ?></div>
                     <?php endif; ?>
 
 
@@ -213,6 +213,19 @@ get_header(); ?>
 
                     </div>
 
+
+                    <div class="mt-8 text-center lg:text-left">
+                        <a class="text-white inline-flex px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer items-center gap-1"
+                            href="/about">
+                            More About Us
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -231,45 +244,46 @@ get_header(); ?>
         <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
             <div class="text-center space-y-4 mb-12">
                 <?php if ($services_label): ?>
-                    <div
-                        class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
-                        <?php echo esc_html($services_label); ?>
-                    </div>
+                <div
+                    class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
+                    <?php echo esc_html($services_label); ?>
+                </div>
                 <?php endif; ?>
 
                 <?php if ($services_title): ?>
-                    <div class="text-2xl md:text-3xl font-bold text-black">
-                        <?php echo esc_html($services_title); ?>
-                    </div>
+                <div class="text-2xl md:text-3xl font-bold text-black">
+                    <?php echo esc_html($services_title); ?>
+                </div>
                 <?php endif; ?>
             </div>
 
             <div class="grid grid-cols-2 gap-4 md:grid-cols-3 sm:gap-8 justify-items-center">
                 <?php if ($services_list): ?>
-                    <?php foreach ($services_list as $service): ?>
-                        <div class="relative rounded-md overflow-hidden">
-                            <?php if ($service['service_image']): ?>
-                                <img loading="lazy" src="<?php echo esc_url($service['service_image']['url']); ?>"
-                                    alt="<?php echo esc_attr($service['service_image']['alt']); ?>">
-                            <?php endif; ?>
+                <?php foreach ($services_list as $service): ?>
+                <div class="relative rounded-md overflow-hidden">
+                    <?php if ($service['service_image']): ?>
+                    <img loading="lazy" src="<?php echo esc_url($service['service_image']['url']); ?>"
+                        alt="<?php echo esc_attr($service['service_image']['alt']); ?>">
+                    <?php endif; ?>
 
-                            <div class="absolute bottom-0 left-0 p-4 md:py-4 md:px-6 space-y-2">
-                                <?php if ($service['service_tag']): ?>
-                                    <div class="text-[#F78D1E] font-medium text-sm">
-                                        <?php echo esc_html($service['service_tag']); ?>
-                                    </div>
-                                <?php endif; ?>
-
-                                <?php if ($service['service_name']): ?>
-                                    <div class="text-white font-bold text-lg md:text-xl">
-                                        <?php echo esc_html($service['service_name']); ?>
-                                    </div>
-                                <?php endif; ?>
-                            </div>
+                    <div class="absolute bottom-0 left-0 p-4 md:py-4 md:px-6 space-y-2">
+                        <?php if ($service['service_tag']): ?>
+                        <div class="text-[#F78D1E] font-medium text-sm">
+                            <?php echo esc_html($service['service_tag']); ?>
                         </div>
-                    <?php endforeach; ?>
+                        <?php endif; ?>
+
+                        <?php if ($service['service_name']): ?>
+                        <div class="text-white font-bold text-lg md:text-xl">
+                            <?php echo esc_html($service['service_name']); ?>
+                        </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+                <?php endforeach; ?>
                 <?php endif; ?>
             </div>
+
         </div>
     </section>
 
@@ -599,38 +613,41 @@ get_header(); ?>
 
                 <div class="space-y-4 px-6 lg:px-10 py-18" x-data="{ activeIndex: null }">
                     <?php if (have_rows('faq_section')): ?>
-                        <div class="space-y-4 m-auto">
-                            <div class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
-                                Why Choose Emerald Health Care (EHC)
-                            </div>
-
-                            <div class="text-2xl md:text-3xl font-bold text-black">
-                                Comprehensive & Compassionate Healthcare Services
-                            </div>
-
-                            <div>
-                                Bringing together technology and expertise to deliver superior healthcare solutions for a healthier tomorrow.
-                            </div>
+                    <div class="space-y-4 m-auto">
+                        <div
+                            class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
+                            Why Choose Emerald Health Care (EHC)
                         </div>
 
-                        <div class="mt-12 space-y-6">
-                            <?php $i = 0;
+                        <div class="text-2xl md:text-3xl font-bold text-black">
+                            Comprehensive & Compassionate Healthcare Services
+                        </div>
+
+                        <div>
+                            Bringing together technology and expertise to deliver superior healthcare solutions for a
+                            healthier tomorrow.
+                        </div>
+                    </div>
+
+                    <div class="mt-12 space-y-6">
+                        <?php $i = 0;
                             while (have_rows('faq_section')): the_row(); ?>
-                                <div class="border rounded-xl border-gray-200">
-                                    <button @click="activeIndex === <?= $i ?> ? activeIndex = null : activeIndex = <?= $i ?>"
-                                        class="w-full flex justify-between items-start p-4 text-left text-gray-900 font-semibold cursor-pointer">
-                                        <?= esc_html(get_sub_field('question')); ?>
-                                        <span x-text="activeIndex === <?= $i ?> ? '-' : '+' " class="text-lg font-bold text-gray-800"></span>
-                                    </button>
+                        <div class="border rounded-xl border-gray-200">
+                            <button @click="activeIndex === <?= $i ?> ? activeIndex = null : activeIndex = <?= $i ?>"
+                                class="w-full flex justify-between items-start p-4 text-left text-gray-900 font-semibold cursor-pointer">
+                                <?= esc_html(get_sub_field('question')); ?>
+                                <span x-text="activeIndex === <?= $i ?> ? '-' : '+' "
+                                    class="text-lg font-bold text-gray-800"></span>
+                            </button>
 
-                                    <div x-show="activeIndex === <?= $i ?>" x-collapse
-                                    class="prose prose-sm md:prose-base prose-li:marker:text-black prose-ol:list-decimal prose-ul:list-disc prose-ul:pl-5 prose-ol:pl-5 p-4 text-gray-800 border-t border-gray-200 space-y-2">
-                                    <?= get_sub_field('answer'); ?>
-                                    </div>
-                                </div>
-                            <?php $i++;
-                            endwhile; ?>
+                            <div x-show="activeIndex === <?= $i ?>" x-collapse
+                                class="prose prose-sm md:prose-base prose-li:marker:text-black prose-ol:list-decimal prose-ul:list-disc prose-ul:pl-5 prose-ol:pl-5 p-4 text-gray-800 border-t border-gray-200 space-y-2">
+                                <?= get_sub_field('answer'); ?>
+                            </div>
                         </div>
+                        <?php $i++;
+                            endwhile; ?>
+                    </div>
                     <?php endif; ?>
                 </div>
 
@@ -683,13 +700,13 @@ get_header(); ?>
         <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16 bg-white">
             <div class="grid md:grid-cols-6 gap-4">
                 <?php if ($gallery_images): ?>
-                    <?php foreach ($gallery_images as $index => $image): ?>
-                        <div class="<?php echo $index < 2 ? 'md:col-span-3' : 'md:col-span-2'; ?>">
-                            <img loading="lazy" src="<?php echo esc_url($image['gallery_image']['url']); ?>"
-                                alt="<?php echo esc_attr($image['gallery_image']['alt']); ?>"
-                                class="w-full object-cover h-96 rounded-md">
-                        </div>
-                    <?php endforeach; ?>
+                <?php foreach ($gallery_images as $index => $image): ?>
+                <div class="<?php echo $index < 2 ? 'md:col-span-3' : 'md:col-span-2'; ?>">
+                    <img loading="lazy" src="<?php echo esc_url($image['gallery_image']['url']); ?>"
+                        alt="<?php echo esc_attr($image['gallery_image']['alt']); ?>"
+                        class="w-full object-cover h-96 rounded-md">
+                </div>
+                <?php endforeach; ?>
                 <?php endif; ?>
             </div>
         </div>
@@ -891,24 +908,24 @@ get_header(); ?>
                 class="absolute top-0 left-0 flex justify-center items-center p-10 backdrop-filter backdrop-brightness-60 h-full w-full">
                 <div class="text-center">
                     <?php if ($cta_badge_text): ?>
-                        <div class="text-[#F78D1E] text-xl font-semibold">
-                            <?php echo esc_html($cta_badge_text); ?>
-                        </div>
+                    <div class="text-[#F78D1E] text-xl font-semibold">
+                        <?php echo esc_html($cta_badge_text); ?>
+                    </div>
                     <?php endif; ?>
 
                     <?php if ($cta_heading): ?>
-                        <div class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mt-6 max-w-lg mx-auto">
-                            <?php echo esc_html($cta_heading); ?>
-                        </div>
+                    <div class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mt-6 max-w-lg mx-auto">
+                        <?php echo esc_html($cta_heading); ?>
+                    </div>
                     <?php endif; ?>
 
                     <?php if ($cta_button_text && $cta_button_link): ?>
-                        <div class="mt-8">
-                            <a href="<?php echo esc_url($cta_button_link); ?>"
-                                class="btn rounded-full bg-[#F78D1E] text-white border-[#F78D1E] px-6 py-3">
-                                <?php echo esc_html($cta_button_text); ?>
-                            </a>
-                        </div>
+                    <div class="mt-8">
+                        <a href="<?php echo esc_url($cta_button_link); ?>"
+                            class="btn rounded-full bg-[#F78D1E] text-white border-[#F78D1E] px-6 py-3">
+                            <?php echo esc_html($cta_button_text); ?>
+                        </a>
+                    </div>
                     <?php endif; ?>
                 </div>
             </div>
@@ -929,61 +946,60 @@ get_header(); ?>
 
 </main>
 
-<script src="https://unpkg.com/alpinejs" defer></script>
 
 <!-- Include Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
-    let swiper1 = new Swiper(".our-doctors", {
-        slidesPerView: 3,
-        spaceBetween: 28,
-        centeredSlides: false,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
+let swiper1 = new Swiper(".our-doctors", {
+    slidesPerView: 3,
+    spaceBetween: 28,
+    centeredSlides: false,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            centeredSlides: false,
         },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+        520: {
+            slidesPerView: 1.1,
+            spaceBetween: 10,
+            centeredSlides: false,
         },
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                centeredSlides: false,
-            },
-            520: {
-                slidesPerView: 1.1,
-                spaceBetween: 10,
-                centeredSlides: false,
-            },
-            640: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
-                centeredSlides: false,
-            },
-            780: {
-                slidesPerView: 2.2,
-                spaceBetween: 10,
-                centeredSlides: false,
-            },
-            1024: {
-                slidesPerView: 2.2,
-                spaceBetween: 20,
-            },
-            1248: {
-                slidesPerView: 3.2,
-                spaceBetween: 20,
-            },
-            1320: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-            },
+        640: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+            centeredSlides: false,
         },
-    });
+        780: {
+            slidesPerView: 2.2,
+            spaceBetween: 10,
+            centeredSlides: false,
+        },
+        1024: {
+            slidesPerView: 2.2,
+            spaceBetween: 20,
+        },
+        1248: {
+            slidesPerView: 3.2,
+            spaceBetween: 20,
+        },
+        1320: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+    },
+});
 </script>
 
 <?php get_footer(); ?>

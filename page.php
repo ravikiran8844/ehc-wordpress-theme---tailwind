@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-    <section class="hidden lg:block lg:h-24 bg-black">
-
-    </section>
+    <section class="hidden lg:block lg:h-24 bg-black"></section>
 <section class="max-w-4xl mx-auto px-4 py-10 text-black">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <article class="prose lg:prose-xl">

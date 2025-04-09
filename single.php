@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
-<main class="container mx-auto px-4 lg:px-16 py-8 lg:pb-12 lg:pt-34">
+<main>
+<section class="hidden lg:block lg:h-24 bg-black">
+
+</section>
+<section class="container mx-auto px-4 lg:px-16 py-8 lg:pb-12 lg:pt-34">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <!-- Blog Post Card -->
@@ -59,6 +63,7 @@
         </div>
 
     <?php endwhile; endif; ?>
+</section>
 </main>
 
 <?php get_footer(); ?>

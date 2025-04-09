@@ -4,219 +4,108 @@ Template Name: About Page
 */
 get_header();
 ?>
-<main class="min-h-screen">
+<main>
+    <section class="lg:py-12" style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg');background-size: cover;background-position: center;">
+        <div class="p-4 py-16 lg:p-18 space-y-2">
 
-    <section class="bg-[#F7F6F2]">
-        <div class="p-4 py-8 lg:p-12">
-            <div class="breadcrumbs text-sm mb-2">
+
+            <div class="text-2xl lg:text-4xl font-bold text-center text-white ">
+                About Us
+            </div>
+            <div class="breadcrumbs text-sm">
                 <ul class="flex justify-center">
-                    <li><a href="/" class="text-black">Home</a></li>
-                    <li class="text-black">About</li>
+                    <li><a href="/" class="text-white">Home</a></li>
+                    <li class="text-white">About</li>
                 </ul>
             </div>
-
-            <div class="text-2xl lg:text-4xl font-bold text-center text-black ">
-                About
-            </div>
         </div>
     </section>
 
 
-    <section class="p-4 py-8 lg:p-12 max-w-7xl mx-auto">
-        <h2 class="text-2xl font-bold text-gray-800">Krisha Charitable Trust (KCT)</h2>
-        <p class="mt-4 text-gray-700">
-            We believe in creating meaningful change through education, healthcare, sanitation, and women empowerment.
-            As the CSR arm of Emerald Jewel Industry India Ltd, our mission is to uplift communities by addressing
-            fundamental needs and fostering sustainable development.
-        </p>
-
-        <h3 class="mt-6 text-xl font-semibold text-gray-800">Our Commitment to Social Responsibility</h3>
-        <p class="mt-2 text-gray-700">
-            Corporate Social Responsibility (CSR) is our commitment to conducting business in an economically, socially,
-            and
-            environmentally responsible manner. We take responsibility for the impact of our activities, ensuring that
-            they contribute
-            to the well-being of society.
-        </p>
-
-        <h3 class="mt-6 text-xl font-semibold text-gray-800">Our Objectives</h3>
-        <ul class="mt-4 space-y-3 text-gray-700">
-            <li class="flex items-start gap-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12l4 4L19 7"></path>
-                </svg>
-                <span>Enhancing Education: Providing school infrastructure support, scholarships, and educational
-                    materials to students in need.</span>
-            </li>
-            <li class="flex items-start gap-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12l4 4L19 7"></path>
-                </svg>
-                <span>Improving School Facilities: Upgrading sanitation and drinking water facilities in government
-                    schools for a healthier learning environment.</span>
-            </li>
-            <li class="flex items-start gap-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12l4 4L19 7"></path>
-                </svg>
-                <span>Empowering Tribal Communities: Ensuring equal access to quality education for tribal students and
-                    raising awareness about the importance of education.</span>
-            </li>
-            <li class="flex items-start gap-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12l4 4L19 7"></path>
-                </svg>
-                <span>Supporting Women Empowerment: Providing skill training programs to help women achieve financial
-                    independence.</span>
-            </li>
-            <li class="flex items-start gap-2">
-                <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12l4 4L19 7"></path>
-                </svg>
-                <span>Rural Development Initiatives: Addressing critical community needs such as healthcare,
-                    environmental sustainability, and livelihood support.</span>
-            </li>
-        </ul>
-
-        <p class="mt-6 text-gray-700">
-            Through Krisha Charitable Trust, we strive to empower lives, build stronger communities, and create a
-            lasting impact. Join us in making a difference!
-        </p>
-
-        <p class="mt-4 font-semibold text-gray-800 flex items-center">
-            📍 Together, we can shape a better future.
-        </p>
-    </section>
-
-
-
-    <section class="bg-[#F7F6F2] py-12">
-        <div class="p-4 py-8 lg:p-12 max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <!-- Text Content -->
+    <section class="bg-white">
+        <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
+            <div class="grid lg:grid-cols-2 gap-10">
                 <div>
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">MISSION</h2>
-                    <p class="text-gray-600 text-lg">
-                        Our mission is to provide <span class="font-semibold">Quality education for all</span>, ensure
-                        better <span class="font-semibold">Health and Well-being</span> for the underprivileged, and
-                        uplift <span class="font-semibold">Women</span> by offering <span class="font-semibold">Skill
-                            Development programs</span> that support sustainable livelihoods. We focus on <span
-                            class="font-semibold">Community Development</span>, enhancing the lives of marginalized
-                        groups, and ensuring equal opportunities for tribal students through education.
-                    </p>
+                    <img loading="lazy" class="w-full h-auto rounded-md" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/about-thumb1.png.png" alt="">
                 </div>
-                <!-- Image Section -->
-                <div>
-                    <img src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/03/about-page-07.webp"
-                        alt="Mission Image" class="w-full h-auto rounded-lg shadow-lg">
+
+                <div class="space-y-4 m-auto">
+                    <div class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
+                        ABOUT US </div>
+
+                    <div class="text-2xl md:text-3xl font-bold text-black">
+                        Advancing Healthcare with Heart &amp; Precision </div>
+
+                    <div>Bringing together technology and expertise to deliver superior healthcare solutions for a healthier tomorrow.</div>
+
+
+                    <div class="grid grid-cols-1 min-[420px]:grid-cols-3 lg:grid-cols-3 gap-5 mt-10">
+                        <div class="border border-[#E5E5E5] p-4 rounded-xl flex flex-col justify-center text-center  gap-2 items-center">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" class="h-12" viewBox="0 0 58 58" fill="none">
+                                    <circle cx="28.7857" cy="28.7857" r="28.7857" fill="#FFF4E8"></circle>
+                                    <path d="M44.8185 45.2593C44.0445 43.2916 43.5349 41.7334 43.1255 40.4825C42.2928 37.9413 41.835 36.5402 40.3856 35.5125C38.9984 34.5295 36.7353 33.9438 32.5617 32.9384L31.57 31.0968C32.1695 30.7029 32.7085 30.183 33.1784 29.5438C34.0905 28.3017 34.7383 26.638 35.1063 24.5945C35.4726 24.4235 35.7835 24.1436 36.0133 23.7722C36.2673 23.361 36.4072 22.8583 36.4072 22.3539C36.4072 21.8148 36.25 21.338 35.9753 20.977V20.9753C36.4055 19.3669 36.4107 17.8778 35.9909 16.5474C35.6091 15.3347 34.8662 14.2791 33.8435 13.4948C32.6912 12.6103 31.19 12.0817 29.6162 12.0091C28.0492 11.9366 26.5014 12.2976 25.1313 13.056C24.4282 13.0353 23.7769 13.1856 23.1964 13.5069C22.6159 13.8282 22.1322 14.3016 21.7625 14.9131C20.821 16.4662 20.7968 18.6015 21.6589 20.3962C20.916 20.6692 20.4461 21.4189 20.4461 22.3535C20.4461 22.858 20.586 23.3607 20.84 23.7719C21.0698 24.145 21.3807 24.4249 21.747 24.5942C22.1149 26.6379 22.7628 28.3015 23.6749 29.5435C24.1293 30.1619 24.6475 30.6681 25.2228 31.0568L24.283 32.9416C20.1144 33.9453 17.8549 34.5309 16.4693 35.5139C15.0199 36.5418 14.5621 37.9428 13.7294 40.4839C13.3199 41.7364 12.8086 43.2947 12.0364 45.2607C11.931 45.5285 12.0623 45.8291 12.3301 45.9345C12.3923 45.9587 12.4562 45.9707 12.5201 45.9707C12.7274 45.9707 12.9226 45.8464 13.0038 45.6408C13.7881 43.6455 14.303 42.0717 14.7176 40.8069C15.5053 38.3987 15.901 37.1912 17.0705 36.3618C17.8306 35.8228 18.9553 35.4013 20.6535 34.9297C20.498 35.1871 20.3684 35.4618 20.2596 35.7572C20.0195 36.4102 19.8916 37.1565 19.8588 38.0825C19.1505 38.2207 18.5027 38.6456 18 39.3142C17.4109 40.0968 17.0844 41.1299 17.0844 42.2217C17.0844 42.5085 17.3176 42.7417 17.6044 42.7417H18.3921C18.6789 42.7417 18.9121 42.5085 18.9121 42.2217C18.9121 41.9349 18.6789 41.7017 18.3921 41.7017H18.1537C18.2332 41.0332 18.4664 40.4199 18.8292 39.9379C19.2507 39.3781 19.7983 39.0689 20.3701 39.0689C20.942 39.0689 21.4896 39.3764 21.9111 39.9379C22.2739 40.4198 22.5072 41.0314 22.5866 41.7017H22.4156C22.1288 41.7017 21.8956 41.9349 21.8956 42.2217C21.8956 42.5085 22.1288 42.7417 22.4156 42.7417H23.1377C23.4245 42.7417 23.6577 42.5085 23.6577 42.2217C23.6577 41.1299 23.3329 40.0968 22.7421 39.3142C22.2428 38.6509 21.6019 38.2276 20.8988 38.0842C20.9661 36.3083 21.436 35.2303 22.4657 34.4547C22.996 34.3216 23.5679 34.1834 24.1846 34.0331C24.2658 34.4374 24.4247 34.8278 24.6597 35.1992C24.962 35.6778 25.38 36.12 25.9415 36.5554C26.9228 37.3155 28.1648 37.9011 29.1651 38.371C29.3828 38.473 29.5936 38.5732 29.7888 38.6682V45.4506C29.7888 45.7374 30.022 45.9706 30.3088 45.9706C30.5956 45.9706 30.8288 45.7374 30.8288 45.4506V38.3453C30.8288 38.1501 30.7182 37.9705 30.5437 37.8823C30.3053 37.7614 30.0462 37.637 29.7698 37.5075C30.4539 37.2725 30.9981 36.9719 31.4352 36.5901C32.1538 35.963 32.5771 35.1061 32.6963 34.0403C33.3027 34.1871 33.8641 34.3236 34.3858 34.4549C35.07 34.9662 37.5075 37.0151 37.7995 40.4342C36.9219 40.6795 36.2758 41.4862 36.2758 42.4416C36.2758 43.5904 37.2104 44.525 38.3592 44.525C39.5081 44.525 40.4426 43.5904 40.4426 42.4416C40.4426 41.4569 39.7568 40.6311 38.8395 40.4135C38.7289 38.9796 38.2711 37.6114 37.4782 36.333C37.1637 35.8268 36.8303 35.3897 36.5021 35.0148C38.031 35.4519 39.0658 35.8544 39.7793 36.3606C40.9488 37.1898 41.3445 38.3991 42.1322 40.8057C42.5468 42.0703 43.0617 43.6441 43.846 45.6395C43.9272 45.8451 44.1224 45.9695 44.3297 45.9695C44.3936 45.9695 44.4575 45.9574 44.5197 45.9332C44.791 45.8278 44.9238 45.5271 44.8185 45.2593ZM22.6522 15.4505C23.2241 14.5072 24.1362 14.027 25.2228 14.0995C25.3265 14.1064 25.4284 14.0823 25.5183 14.0304C27.9766 12.6104 31.1415 12.7296 33.2126 14.3189C34.9782 15.6751 35.6294 17.7965 35.0663 20.3239C31.3486 20.2254 27.586 18.7777 25.3866 16.5785C25.2553 16.4472 25.0636 16.3954 24.8839 16.4437C24.7043 16.4921 24.5643 16.6321 24.516 16.8117C24.1584 18.1454 23.4138 19.3253 22.5949 19.9438C21.8814 18.4581 21.8904 16.7098 22.6522 15.4505ZM24.5128 28.9273C23.6663 27.775 23.0478 26.1148 22.7213 24.1266C22.6885 23.9245 22.5399 23.7621 22.343 23.7086C21.7539 23.5514 21.4861 22.8949 21.4861 22.3524C21.4861 21.9447 21.6416 21.4679 22.0786 21.3505C22.8284 21.1501 23.5609 20.6111 24.1984 19.7905C24.6268 19.2394 24.9913 18.5778 25.2625 17.8764C26.4632 18.9008 27.9765 19.7525 29.6886 20.3589C31.328 20.9411 33.0764 21.2797 34.7865 21.3522C35.2149 21.4732 35.3687 21.9465 35.3687 22.3508C35.3687 22.8932 35.1009 23.5497 34.5118 23.7069C34.3148 23.7604 34.1663 23.9228 34.1335 24.125C33.8087 26.1134 33.1885 27.7736 32.342 28.9256C31.3503 30.2749 30.0339 30.959 28.4273 30.959C26.8207 30.9624 25.5044 30.2783 24.5128 28.9273ZM28.3359 36.8118C26.7863 36.0137 25.2418 34.972 25.1641 33.5035L26.1367 31.5531C26.8363 31.8502 27.6051 32.0005 28.4274 32.0005C29.2238 32.0005 29.9684 31.8589 30.6508 31.5807L31.6925 33.5156C31.6493 35.3866 30.6681 36.3471 28.3359 36.8118ZM39.4077 42.4404C39.4077 43.0174 38.9395 43.4856 38.3625 43.4856C37.7855 43.4856 37.3173 43.0174 37.3173 42.4404C37.3173 41.8634 37.7855 41.3952 38.3625 41.3952C38.9395 41.3952 39.4077 41.8634 39.4077 42.4404Z" fill="#F78D1E"></path>
+                                    <path d="M28.4277 39.985C28.1409 39.985 27.9077 40.2182 27.9077 40.505V41.1096C27.9077 41.3964 28.1409 41.6296 28.4277 41.6296C28.7144 41.6296 28.9477 41.3964 28.9477 41.1096V40.505C28.9477 40.2182 28.7144 39.985 28.4277 39.985Z" fill="#F78D1E"></path>
+                                    <path d="M28.4277 43.283C28.1409 43.283 27.9077 43.5162 27.9077 43.803V44.4076C27.9077 44.6944 28.1409 44.9276 28.4277 44.9276C28.7144 44.9276 28.9477 44.6944 28.9477 44.4076V43.803C28.9477 43.5162 28.7144 43.283 28.4277 43.283Z" fill="#F78D1E"></path>
+                                </svg>
+
+                            </div>
+                            <div class="text-black font-bold text-2xl">
+                                50+
+                            </div>
+                            <div class="text-black flex-grow">
+                                Expert Medical Professionals
+                            </div>
+                        </div>
+
+                        <div class="border border-[#E5E5E5] p-4 rounded-xl flex flex-col justify-center text-center  gap-2 items-center">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="60" class="h-12" viewBox="0 0 59 60" fill="none">
+                                    <circle cx="29.9162" cy="30.0128" r="29.0835" fill="#FFF4E8"></circle>
+                                    <path d="M20.3943 31.9973H38.4283C39.3528 31.9973 40.1039 31.2256 40.1039 30.2759L40.1024 19.5481C40.1024 18.5983 39.3513 17.8266 38.4269 17.8266H35.6204V15.3647C35.6204 14.1344 34.6439 13.1312 33.4465 13.1312H25.463C24.2655 13.1312 23.2891 14.1344 23.2891 15.3647V17.8266H20.3944C19.47 17.8266 18.7189 18.5983 18.7189 19.5481V30.2804C18.7232 31.2257 19.4728 31.9973 20.3943 31.9973ZM24.102 15.3646C24.102 14.593 24.7116 13.9667 25.4627 13.9667H33.4462C34.1973 13.9667 34.8069 14.5929 34.8069 15.3646V17.8266H33.5907V15.6347C33.5907 15.4032 33.4101 15.2162 33.1833 15.2162H25.7256C25.5003 15.2162 25.3183 15.4017 25.3183 15.6347V17.8266H24.102V15.3646ZM32.7818 17.8266H26.1332V16.0488H32.7818V17.8266ZM19.532 19.548C19.532 19.0583 19.9205 18.6636 20.3928 18.6636L38.428 18.6621C38.9047 18.6621 39.2889 19.0613 39.2889 19.5465V30.2789C39.2889 30.7686 38.9003 31.1634 38.428 31.1634L20.3939 31.1648C19.9173 31.1648 19.5331 30.7656 19.5331 30.2804L19.532 19.548ZM25.7516 26.7514H27.6193V28.6703C27.6193 28.9018 27.7999 29.0888 28.0266 29.0888H30.7957C31.021 29.0888 31.203 28.9033 31.203 28.6703V26.7514H33.0707C33.296 26.7514 33.478 26.5659 33.478 26.3329V23.4881C33.478 23.2566 33.2975 23.0696 33.0707 23.0696H31.203V21.1507C31.203 20.9192 31.0224 20.7322 30.7957 20.7322H28.0266C27.8013 20.7322 27.6193 20.9177 27.6193 21.1507V23.0696H25.7516C25.5263 23.0696 25.3443 23.2551 25.3443 23.4881V26.3329C25.3457 26.5644 25.5263 26.7514 25.7516 26.7514ZM26.159 23.9051H28.0266C28.252 23.9051 28.434 23.7196 28.434 23.4866V21.5678H30.3941V23.4866C30.3941 23.7181 30.5747 23.9051 30.8015 23.9051H32.6691V25.9189H30.8015C30.5761 25.9189 30.3941 26.1044 30.3941 26.3374V28.2562H28.434V26.3374C28.434 26.1059 28.2534 25.9189 28.0266 25.9189H26.159V23.9051ZM46.0231 37.4305C45.5161 36.5268 44.4775 36.1662 43.7076 36.6217L42.646 37.2525C42.6084 36.9898 42.5275 36.7316 42.3946 36.4971C41.8876 35.5963 40.8491 35.2327 40.0792 35.6883L39.0175 36.319C38.98 36.0564 38.8991 35.7981 38.7662 35.5637C38.2592 34.6599 37.2206 34.2993 36.4507 34.7549L35.9842 35.0324C35.9394 34.8914 35.8845 34.7593 35.8137 34.6302C35.3067 33.7265 34.2682 33.3659 33.4983 33.8214L28.2216 36.9364C26.0838 35.8649 23.5143 35.2921 18.2117 36.5297V36.4199C18.2117 35.6111 17.5689 34.9493 16.7803 34.9493H14.3882C13.601 34.9493 12.9568 35.6097 12.9568 36.4199V44.8462C12.9568 45.655 13.5996 46.3169 14.3882 46.3169H16.7846C17.5718 46.3169 18.216 45.6565 18.216 44.8462V44.5123C20.3538 44.9145 21.3736 45.5645 22.2791 46.1418C23.2917 46.7873 24.1396 47.3275 26.0028 47.3275C27.9918 47.3275 31.135 46.7117 36.878 44.9487C37.1336 44.9531 37.4442 44.968 37.7735 44.9873C39.3075 45.0704 41.22 45.1728 42.1994 44.22C42.5909 43.8357 42.7916 43.3266 42.7916 42.7078C42.7916 42.3205 42.7136 41.9747 42.5591 41.6779L45.5505 39.903C45.9347 39.6745 46.1904 39.2842 46.2713 38.8019C46.3478 38.3389 46.26 37.8549 46.0231 37.4305ZM40.4838 36.4051C40.8579 36.181 41.4126 36.4125 41.6899 36.9096C41.8372 37.1723 41.882 37.4721 41.83 37.7347L37.2599 40.4475C37.1083 40.4549 36.9681 40.4594 36.8382 40.4594C35.9325 40.3496 35.1409 40.1893 34.4346 39.9963L40.4838 36.4051ZM36.8525 35.4657C37.2266 35.246 37.7812 35.4731 38.0586 35.9702C38.2059 36.2329 38.2507 36.5327 38.1987 36.7953L33.3771 39.6565C32.6188 39.379 31.9616 39.0644 31.3506 38.7334L36.8525 35.4657ZM33.9015 34.5308C34.2756 34.3067 34.8302 34.5382 35.1076 35.0353C35.1812 35.1689 35.2289 35.3084 35.2549 35.4538L30.5258 38.2571C30.3452 38.1473 30.1632 38.0405 29.9827 37.9306C29.6764 37.7481 29.376 37.5656 29.0727 37.3904L33.9015 34.5308ZM17.4031 44.8418C17.4031 45.192 17.1257 45.4799 16.782 45.4799H14.3885C14.0476 45.4799 13.7703 45.195 13.7703 44.8418L13.7717 36.4155C13.7717 36.0653 14.049 35.7774 14.3899 35.7774H16.7863C17.1272 35.7774 17.4074 36.0623 17.4074 36.4155L17.406 44.8418H17.4031ZM41.6379 43.6071C40.9099 44.3179 39.1203 44.2185 37.81 44.1473C37.4547 44.128 37.1181 44.1087 36.8336 44.1087C33.3987 43.8772 32.4813 43.7407 31.0617 43.2421C30.8479 43.1664 30.6183 43.2836 30.5475 43.5047C30.4738 43.7214 30.5879 43.9603 30.8032 44.033C31.9125 44.4204 32.756 44.6029 34.5486 44.7706C25.7073 47.3305 24.4866 46.5603 22.7084 45.428C21.7651 44.8285 20.6009 44.0865 18.2163 43.6621V37.3849C24.839 35.8089 27.0388 37.1267 29.5725 38.6537C31.2958 39.691 33.2486 40.8678 36.7717 41.2863C36.7862 41.2863 36.8006 41.2908 36.8194 41.2908C37.1083 41.2908 37.4521 41.2715 37.8146 41.2522C39.1204 41.1795 40.913 41.0845 41.6426 41.7924C41.8679 42.012 41.9791 42.3088 41.9791 42.7006C41.9748 43.0879 41.8633 43.3875 41.6379 43.6071ZM45.4729 38.6505C45.4325 38.8864 45.314 39.0719 45.1436 39.1743L42.012 41.0323C41.2681 40.4624 40.1342 40.3556 39.0133 40.3719L44.1166 37.3445C44.4907 37.1249 45.0454 37.3519 45.3227 37.8491C45.4614 38.1028 45.5162 38.3878 45.4729 38.6505Z" fill="#F78D1E" stroke="#F78D1E" stroke-width="0.161616"></path>
+                                </svg>
+
+                            </div>
+                            <div class="text-black font-bold text-2xl">
+                                20+
+                            </div>
+                            <div class="text-black flex-grow">
+                                Expert Medical
+                                Services
+                            </div>
+                        </div>
+
+
+                        <div class="border border-[#E5E5E5] p-4 rounded-xl flex flex-col justify-center text-center  gap-2 items-center">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" class="h-12" viewBox="0 0 58 58" fill="none">
+                                    <circle cx="29.1399" cy="29.1256" r="28.3694" fill="#FFF4E8"></circle>
+                                    <path d="M42.8852 25.0173C42.4999 24.632 41.9411 24.3874 41.381 24.423C40.5763 24.4585 39.8768 25.0173 39.6323 25.7523L37.8481 31.068C37.4628 30.8234 37.0092 30.7182 36.5884 30.7537C36.0283 30.7893 35.4695 31.0338 35.0843 31.4888L31.3777 35.7185C30.573 36.6284 30.084 37.817 30.0143 39.041L29.629 45.372C29.629 45.5469 29.6987 45.7218 29.8039 45.8611C29.9432 46.0005 30.1181 46.0715 30.293 46.0715H36.2742C36.5884 46.0715 36.8685 45.827 36.9382 45.5114L37.3931 42.9935L40.8905 40.5098C41.8701 39.8103 42.4643 38.7256 42.5695 37.537L43.4439 26.5202C43.4439 25.9259 43.2691 25.4012 42.8852 25.0173ZM41.2061 37.3974C41.1364 38.202 40.717 38.9356 40.0872 39.3906L36.3793 42.0492C36.2399 42.1544 36.1347 42.2937 36.0992 42.4686L35.6798 44.7419H30.994L31.3437 39.1461C31.4134 38.202 31.7631 37.3277 32.393 36.6282L36.1348 32.3617C36.2742 32.1869 36.4846 32.0817 36.695 32.0817C36.8698 32.0817 37.0447 32.1172 37.184 32.221C37.3234 32.3262 37.4286 32.4314 37.4641 32.6063V32.6418C37.5338 32.8863 37.4996 33.1664 37.3248 33.3768L34.2809 37.1883C34.0364 37.4683 34.1061 37.8878 34.3861 38.1323C34.6662 38.3768 35.0856 38.3072 35.3302 38.0271L38.3726 34.2156C38.7579 33.7266 38.9328 33.0968 38.792 32.4669L40.8905 26.1716C40.9601 25.9271 41.2047 25.7522 41.4506 25.7522C41.59 25.7522 41.8003 25.8219 41.9055 25.9271C42.0107 26.0664 42.0804 26.2071 42.0804 26.382L41.2061 37.3974Z" fill="#F78D1E"></path>
+                                    <path d="M25.2929 35.7181L21.585 31.4516C21.1997 30.9967 20.6751 30.7521 20.0808 30.7166C19.6614 30.6811 19.2065 30.8218 18.8212 31.0308L17.037 25.7151C16.7924 24.946 16.0929 24.4214 15.2527 24.3858C14.6926 24.3503 14.168 24.5607 13.7841 24.9801C13.3988 25.3654 13.1898 25.9241 13.224 26.4843L14.0983 37.5011C14.2035 38.7252 14.8333 39.8099 15.7773 40.4739L19.2747 42.9576L19.7297 45.4754C19.7994 45.7896 20.0794 46.0356 20.3936 46.0356H26.3749C26.5497 46.0356 26.7246 45.9659 26.864 45.8252C27.0033 45.6858 27.0743 45.511 27.0388 45.3361L26.6536 39.0051C26.6221 37.8165 26.1317 36.6279 25.2929 35.7181ZM20.9908 44.7417L20.5714 42.5039C20.5358 42.3291 20.432 42.1897 20.2913 42.0845L16.5834 39.426C15.9194 38.971 15.5341 38.2374 15.4645 37.4327L14.5901 26.4159C14.5901 26.241 14.6256 26.0662 14.765 25.961C14.8702 25.8216 15.0451 25.7861 15.2541 25.7861C15.4986 25.7861 15.709 25.961 15.8142 26.2055L17.9126 32.5008C17.8075 33.1306 17.9482 33.7604 18.3321 34.214L21.3404 38.0269C21.5849 38.3069 22.0043 38.3766 22.2844 38.132C22.5645 37.8875 22.6341 37.4681 22.3896 37.188L19.3471 33.3766C19.1723 33.1662 19.1367 32.9216 19.2078 32.6416V32.606C19.2775 32.4667 19.3471 32.326 19.4878 32.2208C19.6272 32.1156 19.8021 32.0459 19.9769 32.0814C20.1873 32.0814 20.3963 32.1866 20.5371 32.3615L24.2789 36.628C24.8732 37.3274 25.2585 38.2018 25.3282 39.1458L25.6779 44.7416L20.9908 44.7417Z" fill="#F78D1E"></path>
+                                    <path d="M40.1569 18.7914C39.9821 16.9033 39.0025 15.1548 37.4287 14.0342C35.0502 12.321 31.1334 12.7404 28.8957 14.9441L28.2659 15.5739L27.4271 14.6995C26.0978 13.3703 24.2098 12.6708 22.3202 12.8115C20.4308 13.0205 18.6822 14.0001 17.563 15.5739C15.8499 17.9865 16.2693 21.8692 18.4729 24.1068L27.7767 33.4106C27.916 33.55 28.0909 33.621 28.2658 33.621C28.4406 33.621 28.6155 33.5513 28.7548 33.4106L38.2674 23.8981C39.5967 22.5333 40.2963 20.6796 40.1569 18.7914ZM28.2658 31.9762L19.4527 23.1631C17.704 21.4144 17.3187 18.2311 18.6835 16.3789C19.5934 15.1192 20.9213 14.3501 22.4611 14.2449C22.6004 14.2449 22.7411 14.2094 22.8805 14.2094C24.2439 14.2094 25.5391 14.734 26.4831 15.7135L27.8124 17.0428C27.9518 17.1822 28.1267 17.2532 28.3015 17.2532C28.4764 17.2532 28.6513 17.1835 28.7906 17.0428L29.9095 15.9239C31.6582 14.1752 34.8415 13.79 36.6937 15.1548C37.9534 16.0647 38.7225 17.3926 38.8277 18.9323C38.9329 20.4365 38.4083 21.9051 37.3591 22.9543L28.2658 31.9762Z" fill="#F78D1E"></path>
+                                    <path d="M22.8449 15.7133C21.6563 15.7133 20.6071 16.2734 19.9076 17.2516C18.9977 18.5112 19.3133 20.8542 20.5374 22.1123C20.6768 22.2516 20.8516 22.3226 21.0265 22.3226C21.2013 22.3226 21.3762 22.253 21.5156 22.1123C21.7956 21.8677 21.7956 21.4128 21.5156 21.1682C20.7806 20.4332 20.536 18.7897 21.0265 18.0561C21.4814 17.4263 22.1454 17.0766 22.8804 17.0766C23.2657 17.0766 23.5443 16.7623 23.5443 16.4126C23.5443 16.0629 23.2288 15.7133 22.8449 15.7133Z" fill="#F78D1E"></path>
+                                </svg>
+
+                            </div>
+                            <div class="text-black font-bold text-2xl">
+                                10000+
+                            </div>
+                            <div class="text-black flex-grow">
+                                Happy Patients
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section>
-        <div class="p-4 py-8 lg:px-12 lg:py-18 max-w-7xl mx-auto">
-            <div class="grid md:grid-cols-2 gap-4">
-                <!-- Large main image (left side) -->
-                <div class="md:row-span-2">
-                    <img src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/03/about-grid-img1.webp"
-                        alt="About Image" class="w-full h-full rounded-lg shadow-lg object-cover">
-                </div>
-
-                <!-- Top-right smaller image -->
-                <div class="h-auto">
-                    <img src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/03/about-grid-img2.webp"
-                        alt="About Image 2" class="w-full h-full rounded-lg shadow-lg object-cover">
-                </div>
-
-                <!-- Bottom-right smaller image -->
-                <div class="h-auto">
-                    <img src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/03/about-grid-img3.webp"
-                        alt="About Image 3" class="w-full h-full rounded-lg shadow-lg object-cover">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="bg-[#F7F6F2]">
-        <div class="p-4 py-8 lg:p-12 max-w-7xl mx-auto">
-            <div class="grid sm:grid-cols-2 gap-8">
-                <div
-                    class="card w-full bg-white shadow-2xl max-w-md mx-auto flex justify-center items-center flex-col p-6 space-y-2">
-                    <div class="text-[#F78D1E] ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-8">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.076-4.076a1.526 1.526 0 0 1 1.037-.443 48.282 48.282 0 0 0 5.68-.494c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
-                        </svg>
-
-                    </div>
-                    <div class="card-body items-center text-center p-0">
-                        <h2 class="card-title text-xl font-semibold text-black">Share Your Experience</h2>
-                        <p class="text-lg">To Perform better</p>
-                    </div>
-                </div>
-
-
-                <div
-                    class="card w-full bg-white shadow-2xl max-w-md mx-auto flex justify-center items-center flex-col p-6 space-y-2">
-                    <div class="text-[#F78D1E] ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-8">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                        </svg>
-
-                    </div>
-                    <div class="card-body items-center text-center p-0">
-                        <h2 class="card-title text-xl font-semibold text-black">Schedule Your Appointment
-                        </h2>
-                        <p class="text-lg">To know more
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-
-
-
-    <section class="relative my-16"
-        style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/03/about-page-06.webp');background-size: cover;background-position: center;">
-        <div class="p-4 py-6 lg:p-12 xl:p-16 max-w-7xl mx-auto relative z-1">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
-
-                <div class="text-center space-y-4">
-                    <div class="text-white font-bold text-4xl lg:text-5xl">
-                        <span class="counter" data-target="27">27</span> Years
-                    </div>
-                    <div class="text-xl font-semibold text-white">Experience </div>
-                </div>
-                <div class="text-center space-y-4">
-                    <div class="text-white font-bold text-4xl lg:text-5xl">
-                        <span class="counter" data-target="100000">100000</span>+
-                    </div>
-                    <div class="text-xl font-semibold text-white">Beneficiaries
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-
 
 </main>
+
 
 
 <?php get_footer(); ?>

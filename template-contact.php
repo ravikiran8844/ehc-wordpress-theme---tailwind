@@ -36,54 +36,54 @@ get_header();
             <!-- Contact Form -->
             <div class="bg-white border border-gray-200 p-6 rounded-lg shadow-xl space-y-4">
                 <div class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
-                Here to Help
+                    Here to Help
                 </div>
 
                 <div class="text-xl md:text-2xl font-bold text-black">
-                Book an Online Appointment Now
+                    Book an Online Appointment Now
                 </div>
                 <form id="contact-form" class="space-y-4">
 
-                    <!-- Name -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-1">Name</label>
-                        <input id="your-name" type="text" name="name"
-                            class="w-full px-4 py-2 bg-white border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
-                            placeholder="Enter your name" required>
-                    </div>
+                        <!-- Name -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Name</label>
+                            <input id="your-name" type="text" name="name"
+                                class="w-full px-4 py-2 bg-white border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+                                placeholder="Enter your name" required>
+                        </div>
 
-                    <!-- Mobile Number -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-1">Mobile Number</label>
-                        <input id="your-phone" type="tel" minlength="10" maxlength="10" name="phone"
-                            oninput="this.value = this.value.replace(/[^0-9]/g, '')"
-                            class="w-full bg-white px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
-                            placeholder="Enter your mobile number" required>
-                    </div>
+                        <!-- Mobile Number -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Mobile Number</label>
+                            <input id="your-phone" type="tel" minlength="10" maxlength="10" name="phone"
+                                oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                class="w-full bg-white px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+                                placeholder="Enter your mobile number" required>
+                        </div>
 
-                    <!-- Email Address -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-1">Email Address</label>
-                        <input id="your-email" type="email" name="email"
-                            class="w-full px-4 py-2 bg-white border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
-                            placeholder="Enter your email" required>
-                    </div>
+                        <!-- Email Address -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Email Address</label>
+                            <input id="your-email" type="email" name="email"
+                                class="w-full px-4 py-2 bg-white border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+                                placeholder="Enter your email" required>
+                        </div>
 
-                    <!-- Comments -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-1">Comments</label>
-                        <textarea id="your-message" name="comments" rows="4"
-                            class="w-full bg-white resize-none px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
-                            placeholder="Write your message..."></textarea>
-                    </div>
+                        <!-- Comments -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-1">Comments</label>
+                            <textarea id="your-message" name="comments" rows="4"
+                                class="w-full bg-white resize-none px-4 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+                                placeholder="Write your message..."></textarea>
+                        </div>
 
-                    <!-- Submit Button -->
-                    <div class="text-center">
-                        <button type="submit"
-                            class="bg-[#F78D1E] cursor-pointer text-white font-bold py-2 px-6 rounded-lg hover:bg-[#F78D1E] transition duration-300">
-                            Submit
-                        </button>
-                    </div>
+                        <!-- Submit Button -->
+                        <div class="text-center">
+                            <button type="submit"
+                                class="bg-[#F78D1E] cursor-pointer text-white font-bold py-2 px-6 rounded-lg hover:bg-[#F78D1E] transition duration-300">
+                                Submit
+                            </button>
+                        </div>
 
                 </form>
             </div>

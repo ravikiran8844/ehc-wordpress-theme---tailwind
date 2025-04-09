@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
-<main class="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 p-6">
+<main>
+<section class="hidden lg:block lg:h-24 bg-black">
+
+</section>
+<section class="min-h-screen flex flex-col items-center justify-center text-center bg-gray-100 p-6">
     <div class="max-w-md">
         <h1 class="text-6xl font-bold text-red-500 mb-4">404</h1>
         <h2 class="text-2xl font-semibold text-gray-800 mb-2">Oops! Page Not Found</h2>
@@ -9,6 +13,8 @@
             Go Back Home
         </a>
     </div>
+</section>
 </main>
+
 
 <?php get_footer(); ?>

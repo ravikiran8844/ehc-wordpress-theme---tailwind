@@ -15,7 +15,8 @@
 
 
 
-    <header id="sticky-header" class="sticky top-0 z-50 w-full max-lg:bg-black lg:absolute transition duration-300 ease-in-out">
+    <header id="sticky-header"
+        class="sticky top-0 z-50 w-full max-lg:bg-black lg:absolute transition duration-300 ease-in-out">
         <nav class="p-4 lg:px-12 xl:px-16">
             <div>
                 <div class="relative flex h-16 items-center justify-between">
@@ -48,17 +49,47 @@
                                     <span
                                         class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                                 </a>
-                                <a href="#" class="group relative py-2 text-md  text-white uppercase">
+                                <a href="/about" class="group relative py-2 text-md  text-white uppercase">
                                     About
                                     <span
                                         class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                                 </a>
-                                <a href="#" class="group relative py-2 text-md  text-white uppercase">
+
+
+                                <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false"
+                                    class="relative group">
+                                    <div>
+                                        <button @click="open = !open"
+                                            class="p-2 text-md text-white uppercase cursor-pointer flex items-center gap-1 focus:outline-none">
+                                            Services
+                                            <svg class="w-4 h-4 transition-transform duration-300"
+                                                :class="{ 'rotate-180': open }" xmlns="http://www.w3.org/2000/svg"
+                                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <!-- Dropdown -->
+                                    <div x-show="open" x-cloak x-transition
+                                        class="absolute left-0 w-48 bg-white rounded-md shadow-lg z-50 overflow-hidden">
+                                        <a href="/services"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100">SERVICES</a>
+                                        <a href="/services-details"
+                                            class="block px-4 py-2 text-gray-800 hover:bg-gray-100">SERVICES DETAILS</a>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- <a href="#" class="group relative py-2 text-md  text-white uppercase">
                                     Services
                                     <span
                                         class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                                </a>
-                                <a href="#" class="group relative py-2 text-md  text-white uppercase">
+                                </a> -->
+                                <a href="/contact" class="group relative py-2 text-md  text-white uppercase">
                                     Contact
                                     <span
                                         class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -67,10 +98,13 @@
 
                             </div>
                             <div>
-                                <button class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">
-                                    Make an Appointment  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                            </svg>
+                                <button
+                                    class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">
+                                    Make an Appointment <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                    </svg>
                                 </button>
                             </div>
 
@@ -90,21 +124,48 @@
                         <span
                             class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a href="#" class="group relative py-2 text-md  text-white uppercase">
+                    <div x-data="{ open: false }" class="relative group">
+                        <button @click="open = !open"
+                            class="py-2 text-md text-white uppercase flex items-center gap-1 focus:outline-none">
+                            Services
+                            <svg class="w-4 h-4 transition-transform duration-300" :class="{ 'rotate-180': open }"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown -->
+                        <div x-show="open" x-transition x-cloak
+                            class="relative left-0 mt-2 w-48 bg-white rounded-md shadow-lg z-50"
+                            @click.away="open = false">
+                            <a href="/services" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">SERVICES </a>
+                            <a href="/services-details" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">SERVICES
+                                DETAILS
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- <a href="#" class="group relative py-2 text-md  text-white uppercase">
                         Services
                         <span
                             class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </a>
+                    </a> -->
                     <a href="/contact" class="group relative py-2 text-md  text-white uppercase">
                         Contact
                         <span
                             class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
                     <div>
-                        <button class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">
+                        <button
+                            class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">
                             Make an Appointment
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
 
                         </button>

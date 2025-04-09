@@ -611,7 +611,7 @@ get_header(); ?>
 
 
 
-                <div class="space-y-4 px-6 lg:px-10 py-18" x-data="{ activeIndex: null }">
+                <div class="space-y-4 px-6 lg:px-10 xl:py-18" x-data="{ activeIndex: null }">
                     <?php if (have_rows('faq_section')): ?>
                     <div class="space-y-4 m-auto">
                         <div
@@ -653,7 +653,7 @@ get_header(); ?>
 
 
 
-                <div>
+                <div class="order-first lg:order-last">
                     <img class="w-full h-full rounded-4xl object-cover" loading="lazy"
                         src="wp-content/uploads/2025/04/testi-thumb.jpg" alt="banner">
                 </div>

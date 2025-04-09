@@ -22,6 +22,7 @@ get_header();
             </div>
         </div>
     </section>
+   
     <section class="p-4 py-8 lg:p-12 xl:p-16">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
 

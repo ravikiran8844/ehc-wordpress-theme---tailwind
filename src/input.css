@@ -1,13 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@plugin "@tailwindcss/typography";
+
 * {
   font-family: "Lato", sans-serif;
   }
   body{
     color: #1A1A1A;
-    background-color: #F2F2F2;
-    max-width: 1620px;
-    margin: auto;
+    background-color: #fff;
   }
 
   p{

@@ -5,19 +5,20 @@ Template Name: Contact Page
 get_header();
 ?>
 
-<main class="min-h-screen">
+<main class="min-h-screen bg-white">
 
-    <section class="bg-[#F7F6F2] lg:py-12">
-        <div class="p-4 py-8 lg:p-12">
-            <div class="breadcrumbs text-sm mb-2">
-                <ul class="flex justify-center">
-                    <li><a href="/" class="text-black">Home</a></li>
-                    <li class="text-black">Contact</li>
-                </ul>
-            </div>
+    <section class="lg:py-12" style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg');background-size: cover;background-position: center;">
+        <div class="p-4 py-16 lg:p-18 space-y-2">
 
-            <div class="text-2xl lg:text-4xl font-bold text-center text-black ">
+
+            <div class="text-2xl lg:text-4xl font-bold text-center text-white ">
                 Contact Us
+            </div>
+            <div class="breadcrumbs text-sm">
+                <ul class="flex justify-center">
+                    <li><a href="/" class="text-white">Home</a></li>
+                    <li class="text-white">Contact</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -27,16 +28,19 @@ get_header();
             <!-- Google Map -->
             <div class="h-80 lg:h-auto">
                 <iframe class="w-full h-full rounded-lg shadow-lg"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.3987463305502!2d76.94362677480845!3d11.00867978915455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8591ebb60007b%3A0x12d607be2eb333fd!2sFather%20Randy%20St%2C%20R.S.%20Puram%2C%20Coimbatore%2C%20Tamil%20Nadu%20641002!5e0!3m2!1sen!2sin!4v1743405274988!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.1613661763486!2d76.939427!3d11.101348699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f7daa15eda7b%3A0x3ad76d79570a8070!2sEmerald%20Health%20Care%20Center%20-%20A%20Unit%20of%20Krisha%20Charitable%20Trust!5e0!3m2!1sen!2sin!4v1744103753035!5m2!1sen!2sin"
                     allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
 
             <!-- Contact Form -->
-            <div class="bg-[#F7F7F7] p-6 rounded-lg shadow-lg">
-                <h2 class="text-2xl font-bold mb-2 text-black">Get In Touch With Us
-                </h2>
-                <div class="mb-4">If you wish to directly reach us, Please fill out the form below -
+            <div class="bg-white border border-gray-200 p-6 rounded-lg shadow-xl space-y-4">
+                <div class="text-[#F78D1E] bg-[#FEEEDD] border border-[#F78D1E] py-1 px-4 inline-block rounded-full text-sm">
+                Here to Help
+                </div>
+
+                <div class="text-xl md:text-2xl font-bold text-black">
+                Book an Online Appointment Now
                 </div>
                 <form id="contact-form" class="space-y-4">
 
@@ -87,7 +91,7 @@ get_header();
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div class="px-4 lg:px-12 xl:px-16 mb-12">
             <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 bg-[#F7F6F2] p-8 rounded-md">
                 <div class="flex items-center gap-4">
@@ -107,7 +111,7 @@ get_header();
                     <div class="flex items-center border-2 border-[#F78D1E] rounded-full p-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="size-6 fill-[#F78D1E]"">
-  <path fill-rule=" evenodd"
+            <path fill-rule=" evenodd"
                             d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
                             clip-rule="evenodd" />
                         </svg>
@@ -124,7 +128,7 @@ get_header();
                     <div class="flex items-center border-2 border-[#F78D1E] rounded-full p-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="size-6 fill-[#F78D1E]"">
-  <path d=" M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+            <path d=" M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
                         <path
                             d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
                         </svg>
@@ -132,27 +136,15 @@ get_header();
 
                     </div>
                     <div>Mail us: <br>
-                        <span class="break-all">krishacharitabletrustcbe@gmail.com</span></div>
+                        <span class="break-all">krishacharitabletrustcbe@gmail.com</span>
+                    </div>
                 </div>
 
 
-                <!-- <div class="flex items-center gap-4">
-                    <div class="flex items-center border-2 border-[#F78D1E] rounded-full p-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                            class="size-6 fill-[#F78D1E]"">
-                    <path fill-rule=" evenodd"
-                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z"
-                            clip-rule="evenodd" />
-                        </svg>
-
-
-                    </div>
-                    <div>Open time: <br>
-                        24x7</div>
-                </div> -->
+               
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
@@ -161,51 +153,51 @@ get_header();
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
 
-    const apiEndpoint =
-        "https://krishatrust.org/wp-json/contact-form-7/v1/contact-forms/46/feedback";
-    const formData = new FormData();
+        const apiEndpoint =
+            "https://emeraldhealthcenter.com/wp-json/contact-form-7/v1/contact-forms/105/feedback";
+        const formData = new FormData();
 
-    formData.append("your-name", document.getElementById("your-name").value);
-    formData.append("your-phone", document.getElementById("your-phone").value);
-    formData.append("your-email", document.getElementById("your-email").value);
-    formData.append("your-message", document.getElementById("your-message").value);
-    formData.append("_wpcf7_unit_tag", "wpcf7-f46-o1"); // Replace with actual unit tag if needed
+        formData.append("your-name", document.getElementById("your-name").value);
+        formData.append("your-phone", document.getElementById("your-phone").value);
+        formData.append("your-email", document.getElementById("your-email").value);
+        formData.append("your-message", document.getElementById("your-message").value);
+        formData.append("_wpcf7_unit_tag", "wpcf7-f105-o1"); // Replace with actual unit tag if needed
 
-    fetch(apiEndpoint, {
-            method: "POST",
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.status === "mail_sent") {
-                Swal.fire({
-                    icon: "success",
-                    title: "Success!",
-                    text: "Your message has been sent successfully!",
-                });
+        fetch(apiEndpoint, {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "mail_sent") {
+                    Swal.fire({
+                        icon: "success",
+                        title: "Success!",
+                        text: "Your message has been sent successfully!",
+                    });
 
-                // Reset the form after submission
-                document.getElementById("contact-form").reset();
-            } else {
+                    // Reset the form after submission
+                    document.getElementById("contact-form").reset();
+                } else {
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Something went wrong. Please try again.",
+                    });
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
                 Swal.fire({
                     icon: "error",
                     title: "Oops...",
-                    text: "Something went wrong. Please try again.",
+                    text: "Failed to submit the form. Please try again later.",
                 });
-            }
-        })
-        .catch(error => {
-            console.error("Error:", error);
-            Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Failed to submit the form. Please try again later.",
             });
-        });
-});
+    });
 </script>
 
 

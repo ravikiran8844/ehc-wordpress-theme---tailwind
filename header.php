@@ -15,7 +15,7 @@
 
 
 
-    <header id="sticky-header" class="sticky top-0 z-50 w-full max-lg:bg-black lg:absolute">
+    <header id="sticky-header" class="sticky top-0 z-50 w-full max-lg:bg-black lg:absolute transition duration-300 ease-in-out">
         <nav class="p-4 lg:px-12 xl:px-16">
             <div>
                 <div class="relative flex h-16 items-center justify-between">
@@ -95,7 +95,7 @@
                         <span
                             class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a href="#" class="group relative py-2 text-md  text-white uppercase">
+                    <a href="/contact" class="group relative py-2 text-md  text-white uppercase">
                         Contact
                         <span
                             class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>

@@ -138,9 +138,9 @@ modal.addEventListener('click', (e) => {
 });
 
 // Open the modal for demonstration (optional)
-document.getElementById('openModalButton').addEventListener('click', () => {
-    modal.showModal();
-});
+// document.getElementById('openModalButton').addEventListener('click', () => {
+//     modal.showModal();
+// });
 </script>
 
 <?php wp_footer(); ?>

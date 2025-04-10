@@ -8,7 +8,7 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
         <!-- Blog Post Card -->
-        <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl overflow-hidden p-6">
+        <div class="max-w-4xl mx-auto bg-white border border-gray-200 shadow-lg rounded-2xl overflow-hidden p-6">
             
             <!-- Blog Header -->
             <header class="text-center">
@@ -41,7 +41,7 @@
         </div>
 
         <!-- Comments Section -->
-        <div class="max-w-4xl mx-auto mt-12 bg-white shadow-lg rounded-2xl p-6">
+        <div class="max-w-4xl mx-auto mt-12 bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
             <?php if (comments_open() || get_comments_number()) : ?>
                 <h3 class="text-xl font-bold mb-4">Leave a Comment</h3>
                 <?php 

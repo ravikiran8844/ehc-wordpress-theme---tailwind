@@ -71,7 +71,6 @@
                                         </button>
                                     </div>
 
-                                    <!-- Dropdown -->
                                     <div x-show="open" x-cloak x-transition
                                         class="absolute left-0 w-48 bg-white rounded-md shadow-lg z-50 overflow-hidden">
                                         <a href="/services"
@@ -82,13 +81,6 @@
                                 </div>
 
 
-
-
-                                <!-- <a href="#" class="group relative py-2 text-md  text-white uppercase">
-                                    Services
-                                    <span
-                                        class="absolute left-0 bottom-0 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                                </a> -->
                                 <a href="/contact" class="group relative py-2 text-md  text-white uppercase">
                                     Contact
                                     <span

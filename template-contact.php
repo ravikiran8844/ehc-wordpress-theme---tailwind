@@ -5,7 +5,7 @@ Template Name: Contact Page
 get_header();
 ?>
 
-<main class="min-h-screen bg-white">
+<main class="bg-white">
 
     <section class="lg:py-12" style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg');background-size: cover;background-position: center;">
         <div class="p-4 py-16 lg:p-18 space-y-2">

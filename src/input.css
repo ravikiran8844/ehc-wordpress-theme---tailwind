@@ -8,6 +8,9 @@
   body{
     color: #1A1A1A;
     background-color: #fff;
+    max-width: 1600px;
+    margin: auto;
+    position: relative;
   }
 
   p{
@@ -50,4 +53,25 @@
   .swiper-button-next,
   .swiper-button-prev {
       position: relative !important;
+  }
+
+  
+  @keyframes spin3d {
+    0% {
+      transform: rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 360deg);
+    }
+  }
+
+  .rotate-3d-animation {
+    animation: spin3d 3s linear infinite;
+    transform-style: preserve-3d;
+  }
+
+  /* Enable group-hover */
+  .group:hover .group-hover\:rotate-3d-animation {
+    animation: spin3d 3s linear infinite;
+    transform-style: preserve-3d;
   }

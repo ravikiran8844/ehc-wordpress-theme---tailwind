@@ -24,7 +24,59 @@ get_header();
 
     <section class="bg-white">
         <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
-           
+           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-blue-100 shadow-lg p-6 rounded-lg flex flex-col gap-4 group">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white rounded-full size-14 p-3 flex items-center justify-center transition group-hover:ring group-hover:ring-blue-500 group">
+                            <img  loading="lazy" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/services-icon-1.png" alt="" class="transition-transform duration-300 group-hover:rotate-3d-animation">
+                        </div>
+                        <div class="text-xl font-semibold text-blue-900 group-hover:text-blue-500">Couple Therapy
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <div>Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.</div>
+                    </div>
+                    <hr class="border-white border-1 group-hover:border-blue-500">
+                    <div>
+                        <a href="#" class="text-blue-900 uppercase group-hover:text-blue-500 font-medium">Read More</a>
+                    </div>
+                </div>
+
+                <div class="bg-blue-100 shadow-lg p-6 rounded-lg flex flex-col gap-4 group">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white rounded-full size-14 p-3 flex items-center justify-center transition group-hover:ring group-hover:ring-blue-500 group">
+                            <img  loading="lazy" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/services-icon-1.png" alt="" class="transition-transform duration-300 group-hover:rotate-3d-animation">
+                        </div>
+                        <div class="text-xl font-semibold text-blue-900 group-hover:text-blue-500">Couple Therapy
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <div>Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.</div>
+                    </div>
+                    <hr class="border-white border-1 group-hover:border-blue-500">
+                    <div>
+                        <a href="#" class="text-blue-900 uppercase group-hover:text-blue-500 font-medium">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="bg-blue-100 shadow-lg p-6 rounded-lg flex flex-col gap-4 group">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white rounded-full size-14 p-3 flex items-center justify-center transition group-hover:ring group-hover:ring-blue-500 group">
+                            <img  loading="lazy" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/services-icon-1.png" alt="" class="transition-transform duration-300 group-hover:rotate-3d-animation">
+                        </div>
+                        <div class="text-xl font-semibold text-blue-900 group-hover:text-blue-500">Couple Therapy
+                        </div>
+                    </div>
+                    <div class="flex-grow">
+                        <div>Professional mision capital without enterps medical users pros value added e-enabled creative technology via team.</div>
+                    </div>
+                    <hr class="border-white border-1 group-hover:border-blue-500">
+                    <div>
+                        <a href="#" class="text-blue-900 uppercase group-hover:text-blue-500 font-medium">Read More</a>
+                    </div>
+                </div>
+           </div>
         </div>
     </section>
 

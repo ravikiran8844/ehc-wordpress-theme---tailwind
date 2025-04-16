@@ -6,7 +6,8 @@
     <section class="lg:py-12" style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg'); background-size: cover; background-position: center;">
         <div class="p-4 py-16 lg:p-20">
             <h2 class="text-3xl lg:text-5xl font-bold text-center text-white">
-                Latest Posts
+            <?php single_cat_title(); ?>
+
             </h2>
         </div>
     </section>

@@ -5,6 +5,7 @@ Template Name: Services Details Page
 get_header();
 ?>
 <main>
+
     <section class="lg:py-12"
         style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg');background-size: cover;background-position: center;">
         <div class="p-4 py-16 lg:p-18 space-y-2">
@@ -16,8 +17,8 @@ get_header();
             </div>
             <div class="breadcrumbs text-sm">
                 <ul class="flex justify-center">
-                    <li><a href="/services" class="text-white">Services</a></li>
-                    <li class="text-white">Services Details
+                    <li><a href="/services" class="text-white">Emerald</a></li>
+                    <li class="text-white">Service Details
                     </li>
                 </ul>
             </div>
@@ -53,7 +54,9 @@ get_header();
                                 enhance mobility.​ .​</li>
 
                         </ul>
-                        <div>At EHC, our team of dedicated healthcare professionals utilizes the latest medical advancements to provide you with the highest standard of care in a comfortable and supportive environment.</div>
+                        <div>At EHC, our team of dedicated healthcare professionals utilizes the latest medical
+                            advancements to provide you with the highest standard of care in a comfortable and
+                            supportive environment.</div>
                     </div>
                 </di>
 
@@ -152,28 +155,28 @@ get_header();
                         // Extract the image URL
                         $thumbnail_url = $acf_thumbnail ? esc_url($acf_thumbnail['url']) : get_the_post_thumbnail_url(get_the_ID(), 'large');
                 ?>
-                        <div class="bg-white shadow-md rounded-md overflow-hidden">
-                            <a href="<?php the_permalink(); ?>">
-                                <img loading="lazy" src="<?php echo $thumbnail_url; ?>" alt="<?php the_title(); ?>"
-                                    class="w-full h-60 object-cover">
-                            </a>
-                            <div class="p-4">
-                                <div class="text-xs text-gray-500 flex justify-between">
-                                    <span>Posted by <?php the_author(); ?></span>
-                                    <span><?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></span>
-                                </div>
-                                <h3 class="text-lg font-bold mt-2 truncate">
-                                    <a href="<?php the_permalink(); ?>" class="text-black hover:text-[#F78D1E]">
-                                        <?php the_title(); ?>
-                                    </a>
-                                </h3>
-                                <div class="mt-3">
-                                    <a href="<?php the_permalink(); ?>" class="text-[#F78D1E] font-semibold">
-                                        Read More →
-                                    </a>
-                                </div>
-                            </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <a href="<?php the_permalink(); ?>">
+                        <img loading="lazy" src="<?php echo $thumbnail_url; ?>" alt="<?php the_title(); ?>"
+                            class="w-full h-60 object-cover">
+                    </a>
+                    <div class="p-4">
+                        <div class="text-xs text-gray-500 flex justify-between">
+                            <span>Posted by <?php the_author(); ?></span>
+                            <span><?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></span>
                         </div>
+                        <h3 class="text-lg font-bold mt-2 truncate">
+                            <a href="<?php the_permalink(); ?>" class="text-black hover:text-[#F78D1E]">
+                                <?php the_title(); ?>
+                            </a>
+                        </h3>
+                        <div class="mt-3">
+                            <a href="<?php the_permalink(); ?>" class="text-[#F78D1E] font-semibold">
+                                Read More →
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <?php
                     endwhile;
                     wp_reset_postdata();

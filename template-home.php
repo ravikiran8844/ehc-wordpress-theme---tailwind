@@ -611,7 +611,7 @@ get_header(); ?>
 
 
 
-                <div class="space-y-4 px-6 lg:px-10 xl:py-18" x-data="{ activeIndex: null }">
+                <div class="space-y-4 px-6 py-8 lg:px-10 xl:py-18" x-data="{ activeIndex: null }">
                     <?php if (have_rows('faq_section')): ?>
                     <div class="space-y-4 m-auto">
                         <div

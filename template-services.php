@@ -15,7 +15,7 @@ get_header();
             </div>
             <div class="breadcrumbs text-sm">
                 <ul class="flex justify-center">
-                    <li><a href="/" class="text-white">Home</a></li>
+                    <li><a href="/" class="text-white">Emerald</a></li>
                     <li class="text-white">Services</li>
                 </ul>
             </div>

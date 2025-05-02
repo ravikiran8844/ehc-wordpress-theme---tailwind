@@ -4,74 +4,72 @@
 
 * {
   font-family: "Lato", sans-serif;
-  }
-  body{
-    color: #1A1A1A;
-    background-color: #fff;
-    max-width: 1600px;
-    margin: auto;
-    position: relative;
-  }
+}
+body {
+  color: #1a1a1a;
+  background-color: #fff;
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+}
 
-  p{
-    color: #616161;
-  }
+p {
+  color: #616161;
+}
 
-  .swiper {
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    height: auto !important;
-  }
- 
-  .swiper-pagination-bullet-active{
-    background-color: #fff !important;
-  }
+.swiper {
+  height: 100%;
+}
 
+.swiper-slide {
+  height: auto !important;
+}
 
-  [x-cloak] { display: none !important; }
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
 
-  
+[x-cloak] {
+  display: none !important;
+}
 
-  .swiper-button-prev:after,
-  .swiper-rtl .swiper-button-next:after {
-      content: '' !important;
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "" !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative !important;
+}
+
+@keyframes spin3d {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
   }
-
-  .swiper-button-next:after,
-  .swiper-rtl .swiper-button-prev:after {
-      content: '' !important;
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
   }
+}
 
-  .swiper-button-next svg,
-  .swiper-button-prev svg {
-      width: 24px !important;
-      height: 24px !important;
-  }
+.rotate-3d-animation {
+  animation: spin3d 3s linear infinite;
+  transform-style: preserve-3d;
+}
 
-  .swiper-button-next,
-  .swiper-button-prev {
-      position: relative !important;
-  }
-
-  
-  @keyframes spin3d {
-    0% {
-      transform: rotate3d(0, 1, 0, 0deg);
-    }
-    100% {
-      transform: rotate3d(0, 1, 0, 360deg);
-    }
-  }
-
-  .rotate-3d-animation {
-    animation: spin3d 3s linear infinite;
-    transform-style: preserve-3d;
-  }
-
-  /* Enable group-hover */
-  .group:hover .group-hover\:rotate-3d-animation {
-    animation: spin3d 3s linear infinite;
-    transform-style: preserve-3d;
-  }
+/* Enable group-hover */
+.group:hover .group-hover\:rotate-3d-animation {
+  animation: spin3d 3s linear infinite;
+  transform-style: preserve-3d;
+}

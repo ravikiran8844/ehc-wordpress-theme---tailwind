@@ -6,7 +6,7 @@
     <section class="lg:py-12" style="background-image: url('<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/banner.jpg'); background-size: cover; background-position: center;">
         <div class="p-4 py-16 lg:p-20">
             <h2 class="text-3xl lg:text-5xl font-bold text-center text-white">
-            <?php single_cat_title(); ?>
+                <?php single_cat_title(); ?>
 
             </h2>
         </div>
@@ -18,9 +18,9 @@
             <?php while (have_posts()) : the_post(); ?>
 
                 <?php
-                    // Get ACF thumbnail image (if available)
-                    $acf_thumbnail = get_field('blog_thumbnail');
-                    $thumbnail_url = $acf_thumbnail ? esc_url($acf_thumbnail['url']) : get_the_post_thumbnail_url(get_the_ID(), 'large');
+                // Get ACF thumbnail image (if available)
+                $acf_thumbnail = get_field('blog_thumbnail');
+                $thumbnail_url = $acf_thumbnail ? esc_url($acf_thumbnail['url']) : get_the_post_thumbnail_url(get_the_ID(), 'large');
                 ?>
 
                 <article class="bg-white shadow-md rounded-md overflow-hidden transition duration-300 group">
@@ -45,12 +45,12 @@
 
         <!-- Pagination -->
         <div class="mt-6 mb-12 flex justify-center">
-            <?php 
-                echo paginate_links([
-                    'prev_text' => '← Previous',
-                    'next_text' => 'Next →',
-                    'class'     => 'space-x-2',
-                ]);
+            <?php
+            echo paginate_links([
+                'prev_text' => '← Previous',
+                'next_text' => 'Next →',
+                'class'     => 'space-x-2',
+            ]);
             ?>
         </div>
 

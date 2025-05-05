@@ -168,28 +168,28 @@
     </header>
 
     <script>
-    window.addEventListener("scroll", function() {
-        const header = document.getElementById("sticky-header");
+        window.addEventListener("scroll", function() {
+            const header = document.getElementById("sticky-header");
 
-        if (window.scrollY > 200) {
-            header.classList.add("lg:bg-black");
-            header.classList.remove("lg:absolute");
-            header.classList.add("sticky");
+            if (window.scrollY > 200) {
+                header.classList.add("lg:bg-black");
+                header.classList.remove("lg:absolute");
+                header.classList.add("sticky");
 
-        } else {
-            header.classList.remove("lg:bg-black");
-            header.classList.add("lg:absolute");
-            header.classList.remove("sticky");
-        }
-    });
+            } else {
+                header.classList.remove("lg:bg-black");
+                header.classList.add("lg:absolute");
+                header.classList.remove("sticky");
+            }
+        });
 
-    document.getElementById('mobile-menu-button').addEventListener('click', function() {
-        const menu = document.getElementById('mobile-menu');
-        const menuIcon = document.getElementById('menu-icon');
-        const closeIcon = document.getElementById('close-icon');
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
 
-        menu.classList.toggle('hidden');
-        menuIcon.classList.toggle('hidden');
-        closeIcon.classList.toggle('hidden');
-    });
+            menu.classList.toggle('hidden');
+            menuIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
     </script>

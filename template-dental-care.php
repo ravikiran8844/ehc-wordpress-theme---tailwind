@@ -5,9 +5,17 @@ Template Name: Dental Care Page
 get_header();
 ?>
 
+<style>
+    header {
+        position: relative !important;
+        background-color: #1A1A1A;
+        ;
+    }
+</style>
+
 <main class="min-h-screen bg-[#F2F2F2]">
-    <div class="hidden lg:block lg:h-24 bg-black h-0">
-    </div>
+    <!-- <div class="hidden lg:block lg:h-24 bg-black h-0">
+    </div> -->
 
 
     <section>
@@ -50,7 +58,7 @@ get_header();
             <div class="mt-10">
                 <div class="flex flex-wrap justify-center gap-8">
                     <div
-                        class="bg-white p-6 rounded-lg border border-gray-200 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
+                        class="bg-white p-6 rounded-xl border border-gray-300 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
                         <div class="grid grid-cols-[40px_auto] gap-4 mb-4 justify-items-start  place-items-center">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="55" viewBox="0 0 54 55"
@@ -124,7 +132,7 @@ get_header();
                     </div>
 
                     <div
-                        class="bg-white p-6 rounded-lg border border-gray-200 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
+                        class="bg-white p-6 rounded-xl border border-gray-300 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
                         <div class="grid grid-cols-[40px_auto] gap-4 mb-4 justify-items-start  place-items-center">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55"
@@ -172,7 +180,7 @@ get_header();
 
 
                     <div
-                        class="bg-white p-6 rounded-lg border border-gray-200 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
+                        class="bg-white p-6 rounded-xl border border-gray-300 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
                         <div class="grid grid-cols-[40px_auto] gap-4 mb-4 justify-items-start  place-items-center">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"
@@ -204,7 +212,7 @@ get_header();
                         </div>
                     </div>
                     <div
-                        class="bg-white p-6 rounded-lg border border-gray-200 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
+                        class="bg-white p-6 rounded-xl border border-gray-300 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
                         <div class="grid grid-cols-[40px_auto] gap-4 mb-4 justify-items-start  place-items-center">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="55" viewBox="0 0 54 55"
@@ -278,7 +286,7 @@ get_header();
                     </div>
 
                     <div
-                        class="bg-white p-6 rounded-lg border border-gray-200 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
+                        class="bg-white p-6 rounded-xl border border-gray-300 md:basis-[calc(50%-2rem)] lg:basis-[calc(33.333%-2rem)]">
                         <div class="grid grid-cols-[40px_auto] gap-4 mb-4 justify-items-start  place-items-center">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55"
@@ -320,6 +328,66 @@ get_header();
                                 appearance.</div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#1A1A1A] text-[#BFBFBF]">
+        <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
+            <div class="grid lg:grid-cols-[40%_auto] gap-10 lg:gap-14">
+                <!-- Sidebar -->
+                <div class="lg:pt-10 lg:sticky lg:top-0 lg:h-screen lg:overflow-auto">
+                    <h2 class="text-white text-2xl lg:text-3xl mb-8 font-semibold">Smile Brighter, <br>
+                        Live Better!</h2>
+                    <ul id="scrollspy-nav" class="space-y-2 divide-y divide-[#ffffff1a] lg:text-lg">
+                        <li><a href="#section1" class="scroll-link block hover:text-orange-400 pb-2">Specialized Packages</a></li>
+                        <li><a href="#section2" class="scroll-link block hover:text-orange-400 pb-2">Preventive & Routine
+                                Dental</a></li>
+                        <li><a href="#section3" class="scroll-link block hover:text-orange-400 pb-2">Senior Citizen Dental
+                                Wellness</a></li>
+                        <li><a href="#section4" class="scroll-link block hover:text-orange-400 pb-2">Corporate & Membership
+                                Plans</a></li>
+                    </ul>
+                </div>
+
+                <!-- Content -->
+                <div class="lg:w-full space-y-10" id="content">
+                    <section id="section1" class="lg:pt-10">
+                        <div class="space-y-4">
+                            <div>In today’s busy world, we often neglect our oral health. At Emerald Healthcare Centre, we make dental care easy and accessible, so you can keep your smile healthy and bright. Our Dental Care Package is designed for those who want to maintain optimal oral health without compromising on time. From routine checkups to advanced treatments, we provide personalized care for every smile.</div>
+
+                            <div class="text-[#F78D1E] text-2xl font-semibold underline underline-offset-8">Specialized Packages</div>
+                            <ul class="list-disc pl-5">
+                                <li>Family Dental Package</li>
+                                <li>Executive Dental Plan</li>
+                                <li>Senior Citizen Wellness Package</li>
+                                <li>Annual Dental Membership Plan</li>
+                            </ul>
+                            <div>
+                                <a href="#" class="text-md text-[#F78D1E] flex items-center gap-1 leading-[0]">
+                                    Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="16" width="16" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+                        <hr class="text-[#ffffff1a] my-6">
+                    </section>
+                    <section id="section2" class="lg:pt-10">
+                        <h2 class="text-2xl text-orange-400 mb-4">Senior Citizen Dental Wellness Packages</h2>
+                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam est ea ab libero fugit dolorum officiis maiores voluptatibus repellat? Iure error doloribus optio velit dolores neque laborum commodi. A molestias quo corporis? Repellat unde facilis dolores maiores, consequuntur, tempore, voluptate ut eum maxime nobis veritatis quos minima animi soluta. Fuga debitis repellat quam ratione, dolorem odio nostrum sequi repudiandae, obcaecati deleniti dolores, esse pariatur est earum ullam recusandae minus laborum. Doloremque praesentium cumque aut quae rem exercitationem explicabo, totam molestiae dignissimos eius assumenda incidunt magni ipsum quos. Aut repudiandae quidem provident, esse, sunt, nostrum harum suscipit nihil aliquid neque culpa a ea quia ullam vel! Saepe quia reiciendis eius velit ab distinctio facere delectus explicabo quae temporibus enim voluptatem tempora nesciunt repudiandae blanditiis, aliquid iure facilis, inventore voluptas cum perferendis error odit at! Quasi vero ratione incidunt a molestiae maxime! Quos sequi rerum corporis. Quis laboriosam in expedita impedit. Reprehenderit.</div>
+                    </section>
+                    <section id="section3" class="lg:pt-10">
+                        <h2 class="text-2xl text-orange-400 mb-4">Corporate & Membership Plans</h2>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, in voluptatibus obcaecati excepturi eum, debitis reiciendis, odio quaerat consequatur officia sit impedit. Ducimus, doloremque adipisci consequuntur quaerat consequatur, ipsa enim nemo dolore id repellendus veritatis accusantium facilis laborum neque similique officia! Libero exercitationem eos placeat quos earum minus excepturi blanditiis dolorum aliquam ullam, voluptates est, fuga velit ex saepe? Unde eaque aut eveniet architecto necessitatibus esse eum dolore nulla vitae ipsum quia adipisci dolorum voluptate ut magni tenetur distinctio aspernatur, deleniti totam asperiores autem. Molestiae numquam nulla eius tenetur? Placeat dolores veniam vel beatae ducimus unde dolorum animi non distinctio sit ipsum, officiis nesciunt, architecto ratione explicabo id saepe voluptatibus nihil expedita libero natus vero molestiae perferendis ex? Distinctio ea dolores sapiente veritatis quis consequatur quod magni ratione, asperiores quisquam fuga dicta molestias qui minima perferendis id expedita harum sit? Eveniet, et. Voluptatum tenetur sequi distinctio incidunt possimus voluptate tempora labore, fuga maiores nam animi debitis explicabo magnam repudiandae culpa beatae quos ipsa harum nisi soluta excepturi! Laborum tempora aliquid aut, fugiat soluta laboriosam. Accusantium hic dicta veritatis consectetur nostrum molestias aspernatur ratione at sed necessitatibus harum quo magnam vero porro eaque animi tempora magni optio, debitis suscipit velit eius. Dicta accusantium explicabo iste laborum facere illo aliquam doloremque tenetur esse atque ipsa unde praesentium, repudiandae veniam asperiores assumenda est vitae voluptatem incidunt blanditiis velit? Aperiam nisi eveniet dignissimos exercitationem sunt eos rerum, unde nam praesentium nostrum molestiae consequatur non vitae placeat ipsum, odio soluta, consectetur explicabo neque laborum itaque. Architecto distinctio expedita, dolorum temporibus quaerat atque commodi nisi, voluptate quia eum eaque. Error pariatur eaque laudantium! Laboriosam, aspernatur unde id vero dolorem, illum dolore nisi laborum a praesentium dignissimos labore delectus neque obcaecati ipsam ab quae doloribus inventore sint cumque temporibus alias quia! Esse voluptates, sunt quibusdam porro dolorum voluptate numquam eum, placeat ab dolore dolorem quam nemo alias praesentium voluptas suscipit id eligendi asperiores? Tenetur omnis voluptates ratione!</div>
+                    </section>
+                    <section id="section4" class="lg:pt-10">
+                        <h2 class="text-2xl text-orange-400 mb-4">Corporate & Membership Plans</h2>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, in voluptatibus obcaecati excepturi eum, debitis reiciendis, odio quaerat consequatur officia sit impedit. Ducimus, doloremque adipisci consequuntur quaerat consequatur, ipsa enim nemo dolore id repellendus veritatis accusantium facilis laborum neque similique officia! Libero exercitationem eos placeat quos earum minus excepturi blanditiis dolorum aliquam ullam, voluptates est, fuga velit ex saepe? Unde eaque aut eveniet architecto necessitatibus esse eum dolore nulla vitae ipsum quia adipisci dolorum voluptate ut magni tenetur distinctio aspernatur, deleniti totam asperiores autem. Molestiae numquam nulla eius tenetur? Placeat dolores veniam vel beatae ducimus unde dolorum animi non distinctio sit ipsum, officiis nesciunt, architecto ratione explicabo id saepe voluptatibus nihil expedita libero natus vero molestiae perferendis ex? Distinctio ea dolores sapiente veritatis quis consequatur quod magni ratione, asperiores quisquam fuga dicta molestias qui minima perferendis id expedita harum sit? Eveniet, et. Voluptatum tenetur sequi distinctio incidunt possimus voluptate tempora labore, fuga maiores nam animi debitis explicabo magnam repudiandae culpa beatae quos ipsa harum nisi soluta excepturi! Laborum tempora aliquid aut, fugiat soluta laboriosam. Accusantium hic dicta veritatis consectetur nostrum molestias aspernatur ratione at sed necessitatibus harum quo magnam vero porro eaque animi tempora magni optio, debitis suscipit velit eius. Dicta accusantium explicabo iste laborum facere illo aliquam doloremque tenetur esse atque ipsa unde praesentium, repudiandae veniam asperiores assumenda est vitae voluptatem incidunt blanditiis velit? Aperiam nisi eveniet dignissimos exercitationem sunt eos rerum, unde nam praesentium nostrum molestiae consequatur non vitae placeat ipsum, odio soluta, consectetur explicabo neque laborum itaque. Architecto distinctio expedita, dolorum temporibus quaerat atque commodi nisi, voluptate quia eum eaque. Error pariatur eaque laudantium! Laboriosam, aspernatur unde id vero dolorem, illum dolore nisi laborum a praesentium dignissimos labore delectus neque obcaecati ipsam ab quae doloribus inventore sint cumque temporibus alias quia! Esse voluptates, sunt quibusdam porro dolorum voluptate numquam eum, placeat ab dolore dolorem quam nemo alias praesentium voluptas suscipit id eligendi asperiores? Tenetur omnis voluptates ratione!</div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -386,6 +454,42 @@ get_header();
                 </div>
             </div>
 
+
+
+            <div class="bg-[#F2F2F2] p-6 max-w-4xl mx-auto mt-10 rounded-lg">
+                <div class="text-center">
+                    <div class="avatar-group -space-x-6 justify-center">
+                        <div class="avatar">
+                            <div class="w-12">
+                                <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp" />
+                            </div>
+                        </div>
+                        <div class="avatar z-10">
+                            <div class="w-12">
+                                <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
+                            </div>
+                        </div>
+                        <div class="avatar">
+                            <div class="w-12">
+                                <img src="https://img.daisyui.com/images/profile/demo/averagebulk@192.webp" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="text-lg font-semibold md:text-xl mb-2">Can’t find the answer you’re looking for?</div>
+                    <div class="text-[#616161] max-w-lg mx-auto">Our friendly team is here to assist you. Feel free to
+                        reach out, 
+                        We’re happy to help you with any queries about your health journey.
+                    </div>
+                    <div class="flex justify-center mt-4">
+                        <a href="#"
+                            class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">Get
+                            in touch</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
@@ -393,6 +497,31 @@ get_header();
     </section>
 
 </main>
+
+
+
+<script>
+    // Scrollspy logic
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.scroll-link');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (pageYOffset >= sectionTop - 100) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active-link');
+            if (link.getAttribute('href').includes(current)) {
+                link.classList.add('active-link');
+            }
+        });
+    });
+</script>
 
 
 

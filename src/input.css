@@ -73,3 +73,8 @@ p {
   animation: spin3d 3s linear infinite;
   transform-style: preserve-3d;
 }
+
+
+.active-link{
+  @apply text-[#F78D1E] font-semibold;
+}

@@ -336,19 +336,16 @@ get_header();
 
     <section class="bg-[#1A1A1A] text-[#BFBFBF]">
         <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
-            <div class="grid lg:grid-cols-[40%_auto] gap-10 lg:gap-14">
+            <div class="grid lg:grid-cols-[45%_auto] gap-10 lg:gap-14">
                 <!-- Sidebar -->
-                <div class="lg:pt-10 lg:sticky lg:top-0 lg:h-screen lg:overflow-auto">
+                <div class="lg:pt-10 lg:sticky lg:top-0 lg:h-screen lg:overflow-auto max-w-md">
                     <h2 class="text-white text-2xl lg:text-3xl mb-8 font-semibold">Smile Brighter, <br>
                         Live Better!</h2>
-                    <ul id="scrollspy-nav" class="space-y-2 divide-y divide-[#ffffff1a] lg:text-lg">
+                    <ul id="scrollspy-nav" class="space-y-2 divide-y divide-[#ffffff1a] lg:text-md">
                         <li><a href="#section1" class="scroll-link block hover:text-orange-400 pb-2">Specialized Packages</a></li>
-                        <li><a href="#section2" class="scroll-link block hover:text-orange-400 pb-2">Preventive & Routine
-                                Dental</a></li>
-                        <li><a href="#section3" class="scroll-link block hover:text-orange-400 pb-2">Senior Citizen Dental
-                                Wellness</a></li>
-                        <li><a href="#section4" class="scroll-link block hover:text-orange-400 pb-2">Corporate & Membership
-                                Plans</a></li>
+                        <li><a href="#section2" class="scroll-link block hover:text-orange-400 pb-2">Preventive & Routine Dental Care Packages</a></li>
+                        <li><a href="#section3" class="scroll-link block hover:text-orange-400 pb-2">Senior Citizen Dental Wellness Packages</a></li>
+                        <li><a href="#section4" class="scroll-link block hover:text-orange-400 pb-2">Corporate & Membership Plans</a></li>
                     </ul>
                 </div>
 
@@ -358,7 +355,7 @@ get_header();
                         <div class="space-y-4">
                             <div>In today’s busy world, we often neglect our oral health. At Emerald Healthcare Centre, we make dental care easy and accessible, so you can keep your smile healthy and bright. Our Dental Care Package is designed for those who want to maintain optimal oral health without compromising on time. From routine checkups to advanced treatments, we provide personalized care for every smile.</div>
 
-                            <div class="text-[#F78D1E] text-2xl font-semibold underline underline-offset-8">Specialized Packages</div>
+                            <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7">Specialized Packages</div>
                             <ul class="list-disc pl-5">
                                 <li>Family Dental Package</li>
                                 <li>Executive Dental Plan</li>
@@ -377,16 +374,292 @@ get_header();
                         <hr class="text-[#ffffff1a] my-6">
                     </section>
                     <section id="section2" class="lg:pt-10">
-                        <h2 class="text-2xl text-orange-400 mb-4">Senior Citizen Dental Wellness Packages</h2>
-                        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam est ea ab libero fugit dolorum officiis maiores voluptatibus repellat? Iure error doloribus optio velit dolores neque laborum commodi. A molestias quo corporis? Repellat unde facilis dolores maiores, consequuntur, tempore, voluptate ut eum maxime nobis veritatis quos minima animi soluta. Fuga debitis repellat quam ratione, dolorem odio nostrum sequi repudiandae, obcaecati deleniti dolores, esse pariatur est earum ullam recusandae minus laborum. Doloremque praesentium cumque aut quae rem exercitationem explicabo, totam molestiae dignissimos eius assumenda incidunt magni ipsum quos. Aut repudiandae quidem provident, esse, sunt, nostrum harum suscipit nihil aliquid neque culpa a ea quia ullam vel! Saepe quia reiciendis eius velit ab distinctio facere delectus explicabo quae temporibus enim voluptatem tempora nesciunt repudiandae blanditiis, aliquid iure facilis, inventore voluptas cum perferendis error odit at! Quasi vero ratione incidunt a molestiae maxime! Quos sequi rerum corporis. Quis laboriosam in expedita impedit. Reprehenderit.</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Preventive & Routine Dental Care Packages</div>
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">A. Basic Dental Check-Up Plan</div>
+                                    <div class="text-sm">Ideal for: General oral health maintenance.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 Dental consultation & oral health assessment</li>
+                                        <li>🖼️ X-Ray if needed (Per Quadrant)</li>
+                                        <li>🧼 Plaque & tartar removal (scaling & polishing)</li>
+                                        <li>🪥 Oral hygiene education & brushing techniques</li>
+                                        <li>🎁 Free orthodontic consultation</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6 months / 1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Book Your Check-Up <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            Maintain your smile.😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">B. Family Dental Health Package</div>
+                                    <div class="text-sm">Ideal for: Parents & children.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 2 dental consultations per member</li>
+                                        <li>🧼 1 scaling & polishing per member</li>
+                                        <li>🦷 Pit fissure sealant & fluoride treatment for kids
+                                            (up to 14 years)</li>
+                                        <li>🛠️ Fillings, extractions, and root canals for each member</li>
+                                        <li>🎁 Free orthodontic consultation</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Schedule Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            Healthy smiles for the whole family 😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">C. Executive Dental Care Plan</div>
+                                    <div class="text-sm">Ideal for: Working professionals & frequent travelers.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🚀 Priority appointments & express check-ins</li>
+                                        <li>🧼 Annual dental scaling</li>
+                                        <li>🛠️ Fillings, extractions, and root canals</li>
+                                        <li>🎁 Free orthodontic consultation</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Enroll Today <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            Dental care that fits your schedule 😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
                     </section>
                     <section id="section3" class="lg:pt-10">
-                        <h2 class="text-2xl text-orange-400 mb-4">Corporate & Membership Plans</h2>
-                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, in voluptatibus obcaecati excepturi eum, debitis reiciendis, odio quaerat consequatur officia sit impedit. Ducimus, doloremque adipisci consequuntur quaerat consequatur, ipsa enim nemo dolore id repellendus veritatis accusantium facilis laborum neque similique officia! Libero exercitationem eos placeat quos earum minus excepturi blanditiis dolorum aliquam ullam, voluptates est, fuga velit ex saepe? Unde eaque aut eveniet architecto necessitatibus esse eum dolore nulla vitae ipsum quia adipisci dolorum voluptate ut magni tenetur distinctio aspernatur, deleniti totam asperiores autem. Molestiae numquam nulla eius tenetur? Placeat dolores veniam vel beatae ducimus unde dolorum animi non distinctio sit ipsum, officiis nesciunt, architecto ratione explicabo id saepe voluptatibus nihil expedita libero natus vero molestiae perferendis ex? Distinctio ea dolores sapiente veritatis quis consequatur quod magni ratione, asperiores quisquam fuga dicta molestias qui minima perferendis id expedita harum sit? Eveniet, et. Voluptatum tenetur sequi distinctio incidunt possimus voluptate tempora labore, fuga maiores nam animi debitis explicabo magnam repudiandae culpa beatae quos ipsa harum nisi soluta excepturi! Laborum tempora aliquid aut, fugiat soluta laboriosam. Accusantium hic dicta veritatis consectetur nostrum molestias aspernatur ratione at sed necessitatibus harum quo magnam vero porro eaque animi tempora magni optio, debitis suscipit velit eius. Dicta accusantium explicabo iste laborum facere illo aliquam doloremque tenetur esse atque ipsa unde praesentium, repudiandae veniam asperiores assumenda est vitae voluptatem incidunt blanditiis velit? Aperiam nisi eveniet dignissimos exercitationem sunt eos rerum, unde nam praesentium nostrum molestiae consequatur non vitae placeat ipsum, odio soluta, consectetur explicabo neque laborum itaque. Architecto distinctio expedita, dolorum temporibus quaerat atque commodi nisi, voluptate quia eum eaque. Error pariatur eaque laudantium! Laboriosam, aspernatur unde id vero dolorem, illum dolore nisi laborum a praesentium dignissimos labore delectus neque obcaecati ipsam ab quae doloribus inventore sint cumque temporibus alias quia! Esse voluptates, sunt quibusdam porro dolorum voluptate numquam eum, placeat ab dolore dolorem quam nemo alias praesentium voluptas suscipit id eligendi asperiores? Tenetur omnis voluptates ratione!</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Senior Citizen Dental Wellness Packages</div>
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">A. Senior Smile Care Package</div>
+                                    <div class="text-sm">Ideal for: Aging teeth & gums.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 2 comprehensive oral health check-ups</li>
+                                        <li>🦷 Gum disease screening & cleaning</li>
+                                        <li>🦷 Denture maintenance & adjustment (if applicable)</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                            Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                        Keep your golden years smiling.😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">B. Full Mouth Rehabilitation Plan</div>
+                                    <div class="text-sm">Ideal for: Severe tooth loss or damage.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 Consultation & full oral rehabilitation assessment</li>
+                                        <li>👑 Crowns, bridges per tooth</li>
+                                        <li>🦷 Implants & dentures</li>
+                                        <li>🛠️ Extractions & alveoloplasty</li>
+                                        <li>🔄 Post-treatment follow-ups & maintenance</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6-12 months (multiple sessions)</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                            Start your Journey <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                        Restore your smile. 😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
+
+                       
                     </section>
                     <section id="section4" class="lg:pt-10">
-                        <h2 class="text-2xl text-orange-400 mb-4">Corporate & Membership Plans</h2>
-                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, in voluptatibus obcaecati excepturi eum, debitis reiciendis, odio quaerat consequatur officia sit impedit. Ducimus, doloremque adipisci consequuntur quaerat consequatur, ipsa enim nemo dolore id repellendus veritatis accusantium facilis laborum neque similique officia! Libero exercitationem eos placeat quos earum minus excepturi blanditiis dolorum aliquam ullam, voluptates est, fuga velit ex saepe? Unde eaque aut eveniet architecto necessitatibus esse eum dolore nulla vitae ipsum quia adipisci dolorum voluptate ut magni tenetur distinctio aspernatur, deleniti totam asperiores autem. Molestiae numquam nulla eius tenetur? Placeat dolores veniam vel beatae ducimus unde dolorum animi non distinctio sit ipsum, officiis nesciunt, architecto ratione explicabo id saepe voluptatibus nihil expedita libero natus vero molestiae perferendis ex? Distinctio ea dolores sapiente veritatis quis consequatur quod magni ratione, asperiores quisquam fuga dicta molestias qui minima perferendis id expedita harum sit? Eveniet, et. Voluptatum tenetur sequi distinctio incidunt possimus voluptate tempora labore, fuga maiores nam animi debitis explicabo magnam repudiandae culpa beatae quos ipsa harum nisi soluta excepturi! Laborum tempora aliquid aut, fugiat soluta laboriosam. Accusantium hic dicta veritatis consectetur nostrum molestias aspernatur ratione at sed necessitatibus harum quo magnam vero porro eaque animi tempora magni optio, debitis suscipit velit eius. Dicta accusantium explicabo iste laborum facere illo aliquam doloremque tenetur esse atque ipsa unde praesentium, repudiandae veniam asperiores assumenda est vitae voluptatem incidunt blanditiis velit? Aperiam nisi eveniet dignissimos exercitationem sunt eos rerum, unde nam praesentium nostrum molestiae consequatur non vitae placeat ipsum, odio soluta, consectetur explicabo neque laborum itaque. Architecto distinctio expedita, dolorum temporibus quaerat atque commodi nisi, voluptate quia eum eaque. Error pariatur eaque laudantium! Laboriosam, aspernatur unde id vero dolorem, illum dolore nisi laborum a praesentium dignissimos labore delectus neque obcaecati ipsam ab quae doloribus inventore sint cumque temporibus alias quia! Esse voluptates, sunt quibusdam porro dolorum voluptate numquam eum, placeat ab dolore dolorem quam nemo alias praesentium voluptas suscipit id eligendi asperiores? Tenetur omnis voluptates ratione!</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Corporate & Membership Plans</div>
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">A. Corporate Dental Wellness Plan</div>
+                                    <div class="text-sm">Ideal for: Companies & employees.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 2 dental check-ups & cleanings per year</li>
+                                        <li>🛠️ Basic cavity treatment included</li>
+                                        <li>🦷 Orthodontic services</li>
+                                        <li>🏢 On-site dental screening camps for employees</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                            Invest in employee health <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                        Implement Wellness Plan 😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text-[#ffffff1a] my-6">
+                        </div>
+
+
+                  
+
+
+                        <div>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="text-lg font-semibold">B. Annual Dental Membership Plan</div>
+                                    <div class="text-sm">Ideal for: Loyal patients.</div>
+                                </div>
+
+
+                                <div class="space-y-3">
+                                    <div class="text-md font-semibold">Features:</div>
+
+                                    <ul class="space-y-2">
+                                        <li>🩺 Unlimited dental consultations</li>
+                                        <li>🧼 2 free cleanings & fluoride treatment</li>
+                                        <li>🚀 Priority booking & emergency care discounts</li>
+                                        <li>💰 10-20% off all other treatments</li>
+                                    </ul>
+
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">1 year</span></div>
+
+                                    <div class="flex flex-col gap-2 text-center max-w-fit">
+                                        <div>
+                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                            Join Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div>
+                                        Exclusive benefits for our valued patients. 😊
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>

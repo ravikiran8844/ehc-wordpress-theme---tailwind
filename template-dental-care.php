@@ -334,6 +334,80 @@ get_header();
     </section>
 
 
+    <section>
+        <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
+            <div class="bg-[#1A1A1A] text-[#BFBFBF] rounded-xl overflow-hidden">
+                <div class="grid md:grid-cols-[55%_auto] gap-10">
+                    <div class="p-4 md:p-8 lg:p-12 space-y-4 my-auto">
+                        <div class="text-xl md:text-2xl font-semibold text-white space-y-2">
+                            <div>Visit Emerald</div>
+                            <div>Health Care Centre – Coimbatore</div>
+                        </div>
+                        <div>
+                            Whether you're maintaining your oral health or seeking solutions for dental concerns, our Dental Care experts are here to help you smile with confidence and live your healthiest life.
+                        </div>
+                        <div>
+                            <button class="text-white px-6 py-2 text-md bg-[#F78D1E] rounded-full cursor-pointer flex items-center gap-1">
+                                Book An Appointment Now! <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="w-full h-82 object-cover object-top" src="<?php echo wp_get_upload_dir()['baseurl']; ?>/2025/04/about-thumb1.png.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
+            <div class="grid lg:grid-cols-2 gap-10">
+                <div>
+                    <img loading="lazy" class="w-full h-auto rounded-xl shadow-md" src="http://localhost/ehc/wp-content/uploads/2025/04/about-thumb1.png.png" alt="">
+                </div>
+
+                <div class="space-y-4 m-auto">
+                
+
+                    <div class="text-2xl md:text-3xl font-bold text-black">
+                    Common Symptoms That Suggest You Need Dental Care
+                    </div>
+
+                    <div>
+                    Wondering if it’s time to visit a dentist? Knowing the early signs of dental issues is crucial - early detection can save your smile and protect your overall health. If you notice any of the symptoms below, it’s time to seek professional dental care.
+                    </div>
+
+
+                    <div class="flex gap-3 flex-wrap">
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Toothache or Tooth Sensitivity</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Bleeding or Swollen Gums</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Bad Breath (Halitosis)</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Loose or Shifting Teeth</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Dry Mouth</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Jaw Pain or Clicking Sounds</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Mouth Sores That Don’t Heal</div>
+                        <div class="py-2 px-4 w-fit border border-gray-200 rounded-full bg-white">Stained or Discolored Teeth</div>
+
+                    </div>
+
+
+                  
+
+
+                   
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
     <section class="bg-[#1A1A1A] text-[#BFBFBF]">
         <div class="p-4 py-8 sm:p-8 md:p-12 xl:p-16">
             <div class="grid lg:grid-cols-[45%_auto] gap-10 lg:gap-14">
@@ -342,10 +416,14 @@ get_header();
                     <h2 class="text-white text-2xl lg:text-3xl mb-8 font-semibold">Smile Brighter, <br>
                         Live Better!</h2>
                     <ul id="scrollspy-nav" class="space-y-2 divide-y divide-[#ffffff1a] lg:text-md">
-                        <li><a href="#section1" class="scroll-link block hover:text-orange-400 pb-2">Specialized Packages</a></li>
-                        <li><a href="#section2" class="scroll-link block hover:text-orange-400 pb-2">Preventive & Routine Dental Care Packages</a></li>
-                        <li><a href="#section3" class="scroll-link block hover:text-orange-400 pb-2">Senior Citizen Dental Wellness Packages</a></li>
-                        <li><a href="#section4" class="scroll-link block hover:text-orange-400 pb-2">Corporate & Membership Plans</a></li>
+                        <li><a href="#section1" class="scroll-link block hover:text-orange-400 pb-2">Specialized
+                                Packages</a></li>
+                        <li><a href="#section2" class="scroll-link block hover:text-orange-400 pb-2">Preventive &
+                                Routine Dental Care Packages</a></li>
+                        <li><a href="#section3" class="scroll-link block hover:text-orange-400 pb-2">Senior Citizen
+                                Dental Wellness Packages</a></li>
+                        <li><a href="#section4" class="scroll-link block hover:text-orange-400 pb-2">Corporate &
+                                Membership Plans</a></li>
                     </ul>
                 </div>
 
@@ -353,9 +431,14 @@ get_header();
                 <div class="lg:w-full space-y-10" id="content">
                     <section id="section1" class="lg:pt-10">
                         <div class="space-y-4">
-                            <div>In today’s busy world, we often neglect our oral health. At Emerald Healthcare Centre, we make dental care easy and accessible, so you can keep your smile healthy and bright. Our Dental Care Package is designed for those who want to maintain optimal oral health without compromising on time. From routine checkups to advanced treatments, we provide personalized care for every smile.</div>
+                            <div>In today’s busy world, we often neglect our oral health. At Emerald Healthcare Centre,
+                                we make dental care easy and accessible, so you can keep your smile healthy and bright.
+                                Our Dental Care Package is designed for those who want to maintain optimal oral health
+                                without compromising on time. From routine checkups to advanced treatments, we provide
+                                personalized care for every smile.</div>
 
-                            <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7">Specialized Packages</div>
+                            <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7">Specialized
+                                Packages</div>
                             <ul class="list-disc pl-5">
                                 <li>Family Dental Package</li>
                                 <li>Executive Dental Plan</li>
@@ -364,8 +447,10 @@ get_header();
                             </ul>
                             <div>
                                 <a href="#" class="text-md text-[#F78D1E] flex items-center gap-1 leading-[0]">
-                                    Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="16" width="16" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                    Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        height="16" width="16" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                     </svg>
                                 </a>
                             </div>
@@ -374,7 +459,8 @@ get_header();
                         <hr class="text-[#ffffff1a] my-6">
                     </section>
                     <section id="section2" class="lg:pt-10">
-                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Preventive & Routine Dental Care Packages</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Preventive &
+                            Routine Dental Care Packages</div>
 
                         <div>
                             <div class="space-y-4">
@@ -395,13 +481,18 @@ get_header();
                                         <li>🎁 Free orthodontic consultation</li>
                                     </ul>
 
-                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6 months / 1 year</span></div>
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6 months / 1 year</span>
+                                    </div>
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                                Book Your Check-Up <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Book Your Check-Up <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
@@ -440,9 +531,13 @@ get_header();
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                                Schedule Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Schedule Now <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
@@ -479,9 +574,13 @@ get_header();
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                                Enroll Today <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Enroll Today <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
@@ -497,7 +596,8 @@ get_header();
 
                     </section>
                     <section id="section3" class="lg:pt-10">
-                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Senior Citizen Dental Wellness Packages</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Senior
+                            Citizen Dental Wellness Packages</div>
 
                         <div>
                             <div class="space-y-4">
@@ -520,14 +620,18 @@ get_header();
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                            Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
                                         <div>
-                                        Keep your golden years smiling.😊
+                                            Keep your golden years smiling.😊
                                         </div>
                                     </div>
 
@@ -556,18 +660,23 @@ get_header();
                                         <li>🔄 Post-treatment follow-ups & maintenance</li>
                                     </ul>
 
-                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6-12 months (multiple sessions)</span></div>
+                                    <div>Validity: <span class="text-[#F78D1E] font-semibold">6-12 months (multiple
+                                            sessions)</span></div>
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                            Start your Journey <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Start your Journey <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
                                         <div>
-                                        Restore your smile. 😊
+                                            Restore your smile. 😊
                                         </div>
                                     </div>
 
@@ -577,10 +686,11 @@ get_header();
                         </div>
 
 
-                       
+
                     </section>
                     <section id="section4" class="lg:pt-10">
-                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Corporate & Membership Plans</div>
+                        <div class="text-[#F78D1E] text-lg font-semibold underline underline-offset-7 mb-4">Corporate &
+                            Membership Plans</div>
 
                         <div>
                             <div class="space-y-4">
@@ -604,14 +714,18 @@ get_header();
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                            Invest in employee health <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Invest in employee health <svg xmlns="http://www.w3.org/2000/svg"
+                                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                                    stroke="currentColor" class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
                                         <div>
-                                        Implement Wellness Plan 😊
+                                            Implement Wellness Plan 😊
                                         </div>
                                     </div>
 
@@ -621,7 +735,7 @@ get_header();
                         </div>
 
 
-                  
+
 
 
                         <div>
@@ -646,14 +760,18 @@ get_header();
 
                                     <div class="flex flex-col gap-2 text-center max-w-fit">
                                         <div>
-                                            <button class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
-                                            Join Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+                                            <button
+                                                class="bg-transparent flex justify-center items-center gap-1 cursor-pointer text-[#F78D1E] border border-[#F78D1E] rounded-full  py-2 px-6 transition duration-300 hover:bg-[#F78D1E] hover:text-white">
+                                                Join Now <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                    class="size-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
                                                 </svg>
                                             </button>
                                         </div>
                                         <div>
-                                        Exclusive benefits for our valued patients. 😊
+                                            Exclusive benefits for our valued patients. 😊
                                         </div>
                                     </div>
 
@@ -782,6 +900,7 @@ get_header();
         let current = '';
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
+
             if (pageYOffset >= sectionTop - 100) {
                 current = section.getAttribute('id');
             }
